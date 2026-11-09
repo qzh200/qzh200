@@ -1,227 +1,259 @@
 {
-  "username": "qzh200",
   "widgets": [
     {
-      "widgetId": "github-readme-stats",
-      "name": "Github-readme-stats Widget",
-      "position": {
-        "x": 0,
-        "y": 282
-      },
+      "name": "Stats Widget",
       "size": {
-        "width": 390,
-        "height": 210
+        "width": 750,
+        "height": 120
       },
       "config": {
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "backgroundColor": "#0d1117",
-        "hideBorder": true,
         "showTitle": false,
-        "accentColor": "#212830"
+        "textColor": "#0d1117",
+        "hideBorder": true,
+        "accentColor": "#ffffff",
+        "borderColor": "#212830",
+        "animationType": "fade-in",
+        "backgroundColor": "#0d1117",
+        "hideDecorations": true,
+        "animationPreviewKey": 1
       },
       "locked": false,
+      "zIndex": 2,
       "visible": true,
-      "zIndex": 5,
-      "instanceId": "widget_1794116669933_4"
+      "position": {
+        "x": 25,
+        "y": 98
+      },
+      "widgetId": "stats",
+      "instanceId": "widget_4a26f20a-b69d-406a-af6d-fe1af7611f39"
     },
     {
-      "widgetId": "streak-stats",
-      "name": "Streak-stats Widget",
+      "name": "Social-media Widget",
+      "size": {
+        "width": 735,
+        "height": 120
+      },
+      "config": {
+        "showTitle": true,
+        "textColor": "github-auto",
+        "badgeStyle": "for-the-badge",
+        "hideBorder": true,
+        "socialUrls": {
+          "email": "mailto:2563070658@qq.com",
+          "steam": "https://steamcommunity.com/profiles/76561199468675099",
+          "github": "https://github.com/qzh200",
+          "twitter": "https://x.com/yvone4247",
+          "website": "https://www.facebook.com/profile.php?id=61591549614343",
+          "youtube": "https://www.youtube.com/@%E6%B1%90%E8%A1%8C",
+          "instagram": "https://www.instagram.com/qzh_2006/"
+        },
+        "customTitle": "connect me",
+        "animationType": "slide-up",
+        "backgroundColor": "#0d1117",
+        "hideDecorations": false,
+        "selectedSocials": [
+          "github",
+          "twitter",
+          "email",
+          "telegram",
+          "steam"
+        ],
+        "animationPreviewKey": 12
+      },
+      "locked": false,
+      "zIndex": 4,
+      "visible": true,
+      "position": {
+        "x": 32.5,
+        "y": 1140
+      },
+      "widgetId": "social-media",
+      "instanceId": "widget_a6eb0012-2b60-4e69-a67e-1094416fe72f"
+    },
+    {
+      "name": "Custom-image Widget",
+      "size": {
+        "width": 385,
+        "height": 165
+      },
+      "config": {
+        "src": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
+        "url": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
+        "imageUrl": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
+        "showTitle": false,
+        "hideBorder": true,
+        "sourceType": "url",
+        "animationType": "typewriter",
+        "hideDecorations": true,
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "zIndex": 5,
+      "visible": true,
+      "position": {
+        "x": 21.5,
+        "y": 218
+      },
+      "widgetId": "custom-image",
+      "instanceId": "widget_9afbaa5e-c890-4b51-b20c-95067b4924b7"
+    },
+    {
+      "name": "Custom-image Widget",
+      "size": {
+        "width": 392,
+        "height": 165
+      },
+      "config": {
+        "src": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
+        "url": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
+        "imageUrl": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
+        "showTitle": false,
+        "hideBorder": true,
+        "sourceType": "url",
+        "animationType": "typewriter",
+        "hideDecorations": true,
+        "animationPreviewKey": 12
+      },
+      "locked": false,
+      "zIndex": 6,
+      "visible": true,
+      "position": {
+        "x": 18,
+        "y": 383
+      },
+      "widgetId": "custom-image",
+      "instanceId": "widget_ad83795b-61c1-4462-95a8-826a1a337c02"
+    },
+    {
+      "name": "Custom-image Widget",
+      "size": {
+        "width": 800,
+        "height": 336
+      },
+      "config": {
+        "src": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
+        "url": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
+        "mode": "contain",
+        "imageUrl": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
+        "showTitle": false,
+        "hideBorder": true,
+        "sourceType": "url",
+        "animationType": "typewriter",
+        "backgroundColor": "transparent",
+        "hideDecorations": true,
+        "lockAspectRatio": false,
+        "animationPreviewKey": 17
+      },
+      "locked": false,
+      "zIndex": 7,
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 532
+      },
+      "widgetId": "custom-image",
+      "instanceId": "widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce"
+    },
+    {
+      "name": "Ghstats Widget",
+      "size": {
+        "width": 390,
+        "height": 330
+      },
+      "config": {
+        "theme": "default",
+        "showRing": true,
+        "hideTitle": false,
+        "showIcons": true,
+        "showTitle": false,
+        "hideBorder": true,
+        "animationType": "slide-down",
+        "backgroundColor": "transparent",
+        "hideDecorations": true,
+        "animationPreviewKey": 3
+      },
+      "locked": false,
+      "zIndex": 8,
+      "visible": true,
       "position": {
         "x": 410,
-        "y": 282
+        "y": 218
       },
-      "size": {
-        "width": 390,
-        "height": 210
-      },
-      "config": {
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "backgroundColor": "#0d1117",
-        "hideBorder": true,
-        "showTitle": false,
-        "accentColor": "#212830"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1794116669933_5"
+      "widgetId": "ghstats",
+      "instanceId": "widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298"
     },
     {
-      "instanceId": "widget_30b532ea-2d2a-4404-b192-83ae6f62b81e",
-      "widgetId": "contribution-snake",
-      "name": "Contribution-snake Widget",
-      "position": {
-        "x": 0,
-        "y": 724
-      },
+      "name": "Asciiprofile-heatmap Widget",
       "size": {
-        "width": 800,
-        "height": 250
+        "width": 660,
+        "height": 240
       },
       "config": {
-        "animationType": "fade-in",
-        "animationPreviewKey": 26,
-        "showTitle": true,
-        "branch": "main",
-        "hideBorder": true,
-        "hideDecorations": true,
-        "theme": "dark",
-        "backgroundColor": "#0d1117",
-        "borderColor": "#212830"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6
-    },
-    {
-      "instanceId": "widget_b7b47df5-c594-4954-9b1b-75f2cfb5e717",
-      "widgetId": "surveillance-loadout",
-      "name": "Surveillance-loadout Widget",
-      "position": {
-        "x": 10,
-        "y": 508
-      },
-      "size": {
-        "width": 780,
-        "height": 200
-      },
-      "config": {
-        "accentColor": "#55ffff",
-        "customTitle": "Daily Loadout",
-        "borderColor": "github-auto",
-        "displayMode": "both",
-        "backgroundColor": "#0d1117",
-        "secondaryColor": "#c084fc",
-        "ledColor": "#ff5555",
-        "hideBorder": true,
-        "showTitle": false,
-        "hideDecorations": false,
-        "languages": [
-          "Python",
-          "Go",
-          "Java",
-          "JavaScript",
-          "TypeScript",
-          "C",
-          "C++",
-          "PHP",
-          "HTML5"
+        "palette": [
+          "#161b22",
+          "#0e4429",
+          "#006d32",
+          "#26a641",
+          "#39d353",
+          "#69f0a0"
         ],
-        "animationType": "slide-right",
-        "animationPreviewKey": 3,
-        "workflow": [
-          "VS Code",
-          "Git",
-          "Docker",
-          "Linux",
-          "Figma",
-          "GitHub",
-          "React",
-          "Vue.js",
-          "Astro"
-        ]
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6
-    },
-    {
-      "instanceId": "widget_fbbe0a5f-9ed4-4391-95eb-c54a7a108c0d",
-      "widgetId": "codeweb-social-badge",
-      "name": "Codeweb-social-badge Widget",
-      "position": {
-        "x": 0,
-        "y": 990
-      },
-      "size": {
-        "width": 800,
-        "height": 44
-      },
-      "config": {
-        "platforms": [
-          "github",
-          "instagram",
-          "facebook",
-          "gmail",
-          "portfolio"
-        ],
-        "label_portfolio": "Blog",
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "renderMode": "multi"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 7
-    },
-    {
-      "instanceId": "widget_bc8c09ed-c581-4678-82b8-09f9799f9ab4",
-      "widgetId": "header",
-      "name": "Header Widget",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 800,
-        "height": 90
-      },
-      "config": {
-        "hideBorder": true,
-        "animationType": "fade-in",
-        "animationPreviewKey": 3,
-        "animationEasing": "ease-out",
-        "accentColor": "#c5ff4a",
+        "accentColor": "#ffa657",
+        "paletteIndex": 0,
         "backgroundColor": "#0d1117"
       },
       "locked": false,
+      "zIndex": 8,
       "visible": true,
-      "zIndex": 7
+      "position": {
+        "x": 70,
+        "y": 876
+      },
+      "widgetId": "asciiprofile-heatmap",
+      "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252"
     },
     {
-      "instanceId": "widget_9cbb23a0-f535-4571-ab2e-fe9160311c1d",
-      "widgetId": "bio",
-      "name": "Bio Widget",
-      "position": {
-        "x": 0,
-        "y": 106
-      },
+      "name": "Header Widget",
       "size": {
-        "width": 800,
-        "height": 160
+        "width": 750,
+        "height": 90
       },
       "config": {
-        "customBio": "Hello, everyone",
-        "hideBorder": false,
-        "hideDecorations": false,
-        "textAlign": "left",
+        "showTitle": false,
+        "hideBorder": true,
+        "borderColor": "#212830",
+        "animationType": "fade-in",
         "backgroundColor": "#0d1117",
-        "accentColor": "#ffffff"
+        "hideDecorations": false,
+        "animationPreviewKey": 1
       },
       "locked": false,
+      "zIndex": 8,
       "visible": true,
-      "zIndex": 7
+      "position": {
+        "x": 25,
+        "y": 24
+      },
+      "widgetId": "header",
+      "instanceId": "widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92"
     }
   ],
+  "metadata": {
+    "revision": "rev_1794204568175",
+    "updatedAt": "2026-11-09T06:09:30.312Z"
+  },
+  "username": "qzh200",
+  "templateId": "terminal",
+  "profileSlug": "default",
   "globalStyles": {
-    "backgroundColor": "#0d1117",
-    "textColor": "#f4f4f5",
-    "accentColor": "#0d1117",
-    "borderColor": "#27272a",
-    "fontFamily": "'Inter Tight', sans-serif",
-    "borderRadius": 12,
-    "padding": 24,
-    "themeMode": "dark",
-    "templateStyle": "bento_grid",
+    "padding": 16,
+    "textColor": "#ffffff",
+    "themeMode": "auto",
+    "fontFamily": "PT Serif",
+    "accentColor": "#c5ff4a",
+    "borderColor": "rgba(255,255,255,0.1)",
+    "borderRadius": 8,
+    "backgroundColor": "transparent",
     "transparentBackground": false
   },
-  "templateId": "bento_grid",
-  "profileSlug": "default",
-  "metadata": {
-    "revision": "rev_1794199785033_d3nx9",
-    "updatedAt": "2026-11-09T04:49:48.681Z"
-  }
+  "profileName": "Default"
 }
