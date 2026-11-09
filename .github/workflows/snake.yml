@@ -7,10 +7,6 @@ on:
 
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
-
 permissions:
   contents: write
 
@@ -24,15 +20,18 @@ jobs:
         with:
           ref: main
 
-      - name: Generate Snake
+      - name: Generate Snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: qzh200
           outputs: |
             github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit Snake to main
+      - name: Commit Snake SVGs
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update contribution snake"
-          file_pattern: github-contribution-grid-snake.svg
+          file_pattern: github-contribution-grid-snake*.svg
