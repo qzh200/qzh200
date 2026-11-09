@@ -34,7 +34,7 @@
       "name": "Social-media Widget",
       "position": {
         "x": 32.5,
-        "y": 1132
+        "y": 1222
       },
       "size": {
         "width": 735,
@@ -76,23 +76,24 @@
       "widgetId": "custom-image",
       "name": "Custom-image Widget",
       "position": {
-        "x": 21.5,
-        "y": 218
+        "x": 18,
+        "y": 226
       },
       "size": {
-        "width": 385,
+        "width": 392,
         "height": 165
       },
       "config": {
         "sourceType": "url",
-        "imageUrl": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
-        "src": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
-        "url": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
+        "imageUrl": "https://raw.githubusercontent.com/qzh200/qzh200/main/assets/hoyocard-gs.png",
+        "src": "https://raw.githubusercontent.com/qzh200/qzh200/main/assets/hoyocard-gs.png",
+        "url": "https://raw.githubusercontent.com/qzh200/qzh200/main/assets/hoyocard-gs.png",
         "hideBorder": true,
         "hideDecorations": true,
         "showTitle": false,
         "animationType": "typewriter",
-        "animationPreviewKey": 1
+        "animationPreviewKey": 1,
+        "mode": "contain"
       },
       "locked": false,
       "visible": true,
@@ -104,17 +105,17 @@
       "name": "Custom-image Widget",
       "position": {
         "x": 18,
-        "y": 383
+        "y": 384
       },
       "size": {
         "width": 392,
-        "height": 165
+        "height": 164
       },
       "config": {
         "sourceType": "url",
-        "imageUrl": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
-        "src": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
-        "url": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
+        "imageUrl": "https://raw.githubusercontent.com/qzh200/qzh200/main/assets/hoyocard-sr.png",
+        "src": "https://raw.githubusercontent.com/qzh200/qzh200/main/assets/hoyocard-sr.png",
+        "url": "https://raw.githubusercontent.com/qzh200/qzh200/main/assets/hoyocard-sr.png",
         "hideBorder": true,
         "hideDecorations": true,
         "showTitle": false,
@@ -131,11 +132,11 @@
       "name": "Custom-image Widget",
       "position": {
         "x": 0,
-        "y": 532
+        "y": 548
       },
       "size": {
         "width": 800,
-        "height": 336
+        "height": 400
       },
       "config": {
         "sourceType": "url",
@@ -189,7 +190,7 @@
       "name": "Asciiprofile-heatmap Widget",
       "position": {
         "x": 70,
-        "y": 876
+        "y": 965
       },
       "size": {
         "width": 660,
@@ -252,7 +253,7 @@
   "templateId": "terminal",
   "profileSlug": "two",
   "metadata": {
-    "revision": "rev_1794205065050_7zyx8",
-    "updatedAt": "2026-11-09T06:17:47.478Z"
+    "revision": "rev_1794209230371_zoahm",
+    "updatedAt": "2026-11-09T07:27:12.993Z"
   }
 }
