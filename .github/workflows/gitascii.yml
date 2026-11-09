@@ -1,9 +1,7 @@
-
 name: Update GitAscii
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '34 * * * *'
 
@@ -13,80 +11,16 @@ permissions:
 
 concurrency:
   group: gitascii-publication
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   publish:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 10
-
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      # 1. 生成并发布 GitAscii 主页
       - name: Generate and Publish GitAscii SVGs
         uses: Igorcbraz/GitAscii/action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pro_telemetry: true
           refresh_minutes: 60
-
-      
-      - name: Diagnose GitAscii Pro Entitlement
-        if: always()
-        continue-on-error: true
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          echo "Checking OIDC credentials..."
-
-          if [[ -z "${ACTIONS_ID_TOKEN_REQUEST_URL:-}" || -z "${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" ]]; then
-            echo "::error::OIDC credentials missing"
-            exit 1
-          fi
-
-          oidc_json=$(curl -fsS \
-            -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
-            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=gitascii-pro")
-
-          oidc_token=$(jq -r '.value // empty' <<< "$oidc_json")
-
-          if [[ -z "$oidc_token" ]]; then
-            echo "::error::OIDC token unavailable"
-            exit 1
-          fi
-
-          echo "OIDC token acquired."
-
-          response_file=$(mktemp)
-
-          http_code=$(curl -sS \
-            -o "$response_file" \
-            -w "%{http_code}" \
-            -X POST \
-            "https://gitascii.com/api/pro/telemetry" \
-            -H "Authorization: Bearer ${oidc_token}" \
-            -H "Content-Type: application/json" \
-            --data '{"status":"policy_check","repository":"qzh200/qzh200"}')
-
-          echo "GitAscii API HTTP: ${http_code}"
-
-          jq '{
-            success,
-            tier,
-            minimumIntervalMinutes,
-            error
-          }' "$response_file"
-
-          if [[ "$http_code" != "200" ]]; then
-            echo "::error::GitAscii API rejected the request"
-            exit 1
-          fi
-
-          tier=$(jq -r '.tier // "unknown"' "$response_file")
-
-          if [[ "$tier" != "pro" ]]; then
-            echo "::error::GitAscii does not recognize this account as Pro"
-            exit 1
-          fi
-
-          echo "GitAscii Pro entitlement verified."
