@@ -137,7 +137,7 @@
       "visible": true,
       "position": {
         "x": 25,
-        "y": 916
+        "y": 983
       },
       "widgetId": "asciiprofile-heatmap",
       "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252"
@@ -173,7 +173,7 @@
       "name": "Footer Widget",
       "position": {
         "x": 25,
-        "y": 1188
+        "y": 1255
       },
       "size": {
         "width": 750,
@@ -193,12 +193,12 @@
       "widgetId": "custom-image",
       "name": "Custom-image Widget",
       "position": {
-        "x": 0,
+        "x": 9,
         "y": 564
       },
       "size": {
-        "width": 800,
-        "height": 336
+        "width": 782,
+        "height": 403
       },
       "config": {
         "sourceType": "url",
