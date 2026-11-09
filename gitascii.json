@@ -151,7 +151,7 @@
       "name": "Header Widget",
       "position": {
         "x": 0,
-        "y": 16
+        "y": 0
       },
       "size": {
         "width": 800,
@@ -162,7 +162,8 @@
         "animationType": "fade-in",
         "animationPreviewKey": 3,
         "animationEasing": "ease-out",
-        "accentColor": "#c5ff4a"
+        "accentColor": "#c5ff4a",
+        "backgroundColor": "#0d1117"
       },
       "locked": false,
       "visible": true,
@@ -194,7 +195,7 @@
     }
   ],
   "globalStyles": {
-    "backgroundColor": "#0d1117",
+    "backgroundColor": "#ffffff",
     "textColor": "#f4f4f5",
     "accentColor": "#0d1117",
     "borderColor": "#27272a",
@@ -208,7 +209,7 @@
   "templateId": "bento_grid",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1794188990315_h99au",
-    "updatedAt": "2026-11-09T01:49:52.832Z"
+    "revision": "rev_1794198580381_lpghd",
+    "updatedAt": "2026-11-09T04:29:42.957Z"
   }
 }
