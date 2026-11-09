@@ -9,3 +9,7 @@
 <img alt="GitAscii badge fetch analytics" src="https://gitascii.com/api/badge/qzh200?slug=two&amp;style=transparent" width="1" height="1">
 <!-- GITASCII:TELEMETRY:END -->
 <!-- GITASCII:two:END -->
+
+<!-- GITASCII:TELEMETRY:START - Measures badge fetches (usually GitHub Camo refreshes), not exact human views -->
+<img alt="GitAscii badge fetch analytics" src="https://gitascii.com/api/badge/qzh200?slug=default&amp;style=transparent" width="1" height="1">
+<!-- GITASCII:TELEMETRY:END -->
