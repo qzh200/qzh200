@@ -1,9 +1,9 @@
-
-name: Refresh HoyoCard Images
+name: Refresh Profile Assets
 
 on:
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
 
 permissions:
@@ -19,23 +19,20 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
-      - name: Download HoyoCard SVG
+      - name: Download HoyoCard SVGs
         shell: bash
         run: |
           set -euo pipefail
 
-          mkdir -p assets /tmp/hoyocard
-
-          curl -fLsS --retry 3 -A "Mozilla/5.0" \
-            "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png" \
-            -o /tmp/hoyocard/gs.svg
-
-          curl -fLsS --retry 3 -A "Mozilla/5.0" \
-            "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png" \
-            -o /tmp/hoyocard/sr.svg
+          mkdir -p /tmp/hoyocard
 
           for type in gs sr; do
+            curl -fLsS --retry 3 -A "Mozilla/5.0" \
+              "https://hoyocard.qhy04.com/${type}/detail/rand/422551225.png" \
+              -o "/tmp/hoyocard/${type}.svg"
+
             if ! grep -Eiq '<svg([[:space:]>])' "/tmp/hoyocard/${type}.svg"; then
               echo "Invalid SVG response: ${type}"
               head -c 500 "/tmp/hoyocard/${type}.svg"
@@ -43,18 +40,18 @@ jobs:
             fi
           done
 
-      - name: Install Chromium
+      - name: Render HoyoCard PNGs
+        shell: bash
         run: |
+          set -euo pipefail
+
           mkdir -p /tmp/hoyocard-render
           cd /tmp/hoyocard-render
           npm init -y
           npm install playwright
           npx playwright install --with-deps chromium
 
-     
-      - name: Convert SVG to PNG
-        run: |
-          cat > /tmp/hoyocard-render/render.mjs <<'EOF'
+          cat > render.mjs <<'EOF'
           import { chromium } from 'playwright';
           import { resolve } from 'node:path';
           import { pathToFileURL } from 'node:url';
@@ -67,28 +64,21 @@ jobs:
           try {
             for (const type of ['gs', 'sr']) {
               const page = await browser.newPage({
-                viewport: {
-                  width: 500,
-                  height: 165
-                },
+                viewport: { width: 500, height: 165 },
                 deviceScaleFactor: 2
               });
 
               page.setDefaultNavigationTimeout(60000);
 
               await page.goto(
-                pathToFileURL(
-                  resolve(`/tmp/hoyocard/${type}.svg`)
-                ).href,
+                pathToFileURL(resolve(`/tmp/hoyocard/${type}.svg`)).href,
                 { waitUntil: 'load', timeout: 60000 }
               );
 
-              // 等待 SVG 内容和字体就绪
               await page.evaluate(async () => {
                 await document.fonts.ready;
               });
 
-              // 禁止动画，避免截图过程持续渲染
               await page.screenshot({
                 path: `${process.env.GITHUB_WORKSPACE}/assets/hoyocard-${type}.png`,
                 type: 'png',
@@ -106,35 +96,50 @@ jobs:
           }
           EOF
 
-          node /tmp/hoyocard-render/render.mjs
+          node render.mjs
 
-
-      - name: Verify PNG files
+      - name: Download Tokscale SVG
+        shell: bash
         run: |
-          file assets/hoyocard-gs.png
-          file assets/hoyocard-sr.png
+          set -euo pipefail
 
-          test -s assets/hoyocard-gs.png
-          test -s assets/hoyocard-sr.png
+          curl -fLsS --retry 3 --retry-delay 5 --max-time 120 \
+            -A "Mozilla/5.0" \
+            -H "Accept: image/svg+xml" \
+            "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full" \
+            -o assets/tokscale.svg
 
-      - name: Commit refreshed images
-        id: commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          test -s assets/tokscale.svg
 
-          git add assets/hoyocard-gs.png assets/hoyocard-sr.png
-
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            git commit -m "chore: refresh HoyoCard images"
-            git push origin HEAD:main
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          if ! grep -Eiq '<svg([[:space:]>])' assets/tokscale.svg; then
+            echo "Invalid SVG response"
+            head -c 500 assets/tokscale.svg
+            exit 1
           fi
 
+      - name: Verify refreshed assets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          file "${GITHUB_WORKSPACE}/assets/hoyocard-gs.png" "${GITHUB_WORKSPACE}/assets/hoyocard-sr.png"
+
+          test -s "${GITHUB_WORKSPACE}/assets/hoyocard-gs.png"
+          test -s "${GITHUB_WORKSPACE}/assets/hoyocard-sr.png"
+
+      - name: Commit refreshed assets
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: refresh profile assets"
+          file_pattern: assets/hoyocard-gs.png assets/hoyocard-sr.png assets/tokscale.svg
+          branch: main
+          skip_fetch: true
+          skip_checkout: true
+          before_push_hook: git pull --rebase origin main
+
       - name: Rebuild GitAscii profile
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changes_detected == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
