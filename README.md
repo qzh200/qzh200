@@ -1,9 +1,8 @@
-
-<img src="https://hoyocard.qhy04.com/gs/detail/rand/422551225.png" alt="hoyo-card" />
-
-<img src="https://hoyocard.qhy04.com/sr/detail/rand/422551225.png" alt="hoyo-card" />
-
-[![Tokscale Stats](https://tokscale.ai/api/embed/qzh200/svg?graph=1&rank=total&tokens=full&cost=full)](https://tokscale.ai/u/qzh200)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/qzh200/qzh200/gitascii/profiles/default/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/qzh200/qzh200/gitascii/profiles/default/light.svg">
+  <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/qzh200/qzh200/gitascii/profiles/default/dark.svg" width="100%">
+</picture>
 
 <!-- GITASCII:TELEMETRY:START - Measures badge fetches (usually GitHub Camo refreshes), not exact human views -->
 <p align="center">
