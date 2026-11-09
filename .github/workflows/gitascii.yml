@@ -1,7 +1,9 @@
+
 name: Update GitAscii
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: '34 * * * *'
 
@@ -11,16 +13,106 @@ permissions:
 
 concurrency:
   group: gitascii-publication
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
     steps:
+      # 1. 生成并发布 GitAscii 主页
       - name: Generate and Publish GitAscii SVGs
         uses: Igorcbraz/GitAscii/action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pro_telemetry: true
           refresh_minutes: 60
+
+      # 2. 检查 GitHub OIDC 身份认证
+      - name: Diagnose GitAscii Pro OIDC
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${ACTIONS_ID_TOKEN_REQUEST_URL:-}" || -z "${ACTIONS_ID_TOKEN_REQUEST_TOKEN:-}" ]]; then
+            echo "::error::OIDC environment variables are missing"
+            exit 1
+          fi
+
+          echo "Requesting GitAscii OIDC token..."
+
+          oidc_json=$(curl -fsS \
+            --retry 2 \
+            -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
+            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=gitascii-pro")
+
+          oidc_token=$(jq -r '.value // empty' <<< "$oidc_json")
+
+          if [[ -z "$oidc_token" ]]; then
+            echo "::error::Failed to obtain OIDC token"
+            exit 1
+          fi
+
+          echo "OIDC token acquired successfully."
+
+          # 只输出必要的身份声明，不输出 Token 本身
+          OIDC_TOKEN="$oidc_token" python3 - <<'PY'
+          import os
+          import json
+          import base64
+          import sys
+
+          token = os.environ["OIDC_TOKEN"]
+          parts = token.split(".")
+
+          if len(parts) != 3:
+              print("Invalid JWT format")
+              sys.exit(1)
+
+          payload = parts[1]
+          payload += "=" * (-len(payload) % 4)
+
+          claims = json.loads(
+              base64.urlsafe_b64decode(payload)
+          )
+
+          keys = [
+              "iss",
+              "aud",
+              "repository",
+              "repository_owner",
+              "ref",
+              "workflow",
+              "event_name",
+              "run_id"
+          ]
+
+          result = {
+              key: claims.get(key)
+              for key in keys
+          }
+
+          print(json.dumps(result, indent=2))
+
+          audience = claims.get("aud")
+          valid = (
+              audience == "gitascii-pro"
+              or (
+                  isinstance(audience, list)
+                  and "gitascii-pro" in audience
+              )
+          )
+
+          if not valid:
+              print("OIDC audience mismatch")
+              sys.exit(1)
+
+          if claims.get("repository") != "qzh200/qzh200":
+              print("Repository identity mismatch")
+              sys.exit(1)
+
+          print("OIDC identity verification passed.")
+          PY
