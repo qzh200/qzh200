@@ -65,7 +65,7 @@
         "animationType": "typewriter",
         "animationPreviewKey": 24,
         "showTitle": true,
-        "branch": "output",
+        "branch": "main",
         "hideBorder": true,
         "hideDecorations": true,
         "theme": "dark",
@@ -208,7 +208,7 @@
   "templateId": "bento_grid",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1794186252946_kfsxa",
-    "updatedAt": "2026-11-09T01:04:15.439Z"
+    "revision": "rev_1794186458954_quti6",
+    "updatedAt": "2026-11-09T01:07:40.999Z"
   }
 }
