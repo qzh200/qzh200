@@ -16,7 +16,7 @@
         "animationType": "fade-in",
         "backgroundColor": "#0d1117",
         "hideDecorations": true,
-        "animationPreviewKey": 1
+        "animationPreviewKey": 2
       },
       "locked": false,
       "zIndex": 2,
@@ -101,7 +101,7 @@
         "animationType": "slide-down",
         "backgroundColor": "transparent",
         "hideDecorations": true,
-        "animationPreviewKey": 3
+        "animationPreviewKey": 4
       },
       "locked": false,
       "zIndex": 8,
@@ -137,7 +137,7 @@
       "visible": true,
       "position": {
         "x": 25,
-        "y": 908
+        "y": 916
       },
       "widgetId": "asciiprofile-heatmap",
       "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252"
@@ -155,7 +155,7 @@
         "animationType": "fade-in",
         "backgroundColor": "#0d1117",
         "hideDecorations": false,
-        "animationPreviewKey": 1
+        "animationPreviewKey": 2
       },
       "locked": false,
       "zIndex": 8,
@@ -173,14 +173,16 @@
       "name": "Footer Widget",
       "position": {
         "x": 25,
-        "y": 1180
+        "y": 1188
       },
       "size": {
         "width": 750,
         "height": 56
       },
       "config": {
-        "backgroundColor": "#0d1117"
+        "backgroundColor": "#0d1117",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1
       },
       "locked": false,
       "visible": true,
@@ -192,7 +194,7 @@
       "name": "Custom-image Widget",
       "position": {
         "x": 0,
-        "y": 556
+        "y": 564
       },
       "size": {
         "width": 800,
@@ -207,7 +209,9 @@
         "hideBorder": true,
         "showTitle": false,
         "backgroundColor": "transparent",
-        "mode": "contain"
+        "mode": "contain",
+        "animationType": "scan-lines",
+        "animationPreviewKey": 23
       },
       "locked": false,
       "visible": true,
@@ -228,7 +232,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1794218015707_z3quj",
-    "updatedAt": "2026-11-09T09:53:38.100Z"
+    "revision": "rev_1794219026701_f2cqa",
+    "updatedAt": "2026-11-09T10:10:29.160Z"
   }
 }
