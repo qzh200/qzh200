@@ -13,3 +13,11 @@
 </p>
 <!-- GITASCII:TELEMETRY:END -->
 <!-- GITASCII:two:END -->
+
+<!-- GITASCII:TELEMETRY:START - Measures badge fetches (usually GitHub Camo refreshes), not exact human views -->
+<p align="center">
+  <a href="https://gitascii.com">
+    <img alt="GitAscii badge fetch analytics" src="https://gitascii.com/api/badge/qzh200?slug=default" width="100%">
+  </a>
+</p>
+<!-- GITASCII:TELEMETRY:END -->
