@@ -1,0 +1,111 @@
+
+name: Refresh HoyoCard Images
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Download HoyoCard archives
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p assets /tmp/hoyocard/gs /tmp/hoyocard/sr
+
+          curl -fLsS --retry 3 -A "Mozilla/5.0" \
+            "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png" \
+            -o /tmp/hoyocard/gs.zip
+
+          curl -fLsS --retry 3 -A "Mozilla/5.0" \
+            "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png" \
+            -o /tmp/hoyocard/sr.zip
+
+          for type in gs sr; do
+            zip="/tmp/hoyocard/${type}.zip"
+            member="$(unzip -Z1 "$zip" | grep -E '\.(png|svg)$' | head -n 1)"
+
+            test -n "$member"
+
+            unzip -p "$zip" "$member" \
+              > "/tmp/hoyocard/${type}.svg"
+
+            grep -q '<svg' "/tmp/hoyocard/${type}.svg"
+          done
+
+      - name: Install Chromium
+        run: |
+          mkdir -p /tmp/hoyocard-render
+          cd /tmp/hoyocard-render
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Convert SVG to PNG
+        run: |
+          cat > /tmp/hoyocard-render/render.mjs <<'EOF'
+          import { chromium } from 'playwright';
+          import { resolve } from 'node:path';
+          import { pathToFileURL } from 'node:url';
+
+          const browser = await chromium.launch({ headless: true });
+
+          for (const type of ['gs', 'sr']) {
+            const page = await browser.newPage({
+              viewport: { width: 500, height: 165 },
+              deviceScaleFactor: 2
+            });
+
+            await page.goto(
+              pathToFileURL(resolve(`/tmp/hoyocard/${type}.svg`)).href,
+              { waitUntil: 'load' }
+            );
+
+            await page.screenshot({
+              path: `assets/hoyocard-${type}.png`,
+              fullPage: true
+            });
+
+            await page.close();
+          }
+
+          await browser.close();
+          EOF
+
+          node /tmp/hoyocard-render/render.mjs
+
+      - name: Commit refreshed images
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/hoyocard-gs.png assets/hoyocard-sr.png
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: refresh HoyoCard images"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Rebuild GitAscii profile
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run gitascii.yml --ref main
