@@ -1,4 +1,5 @@
 {
+  "username": "qzh200",
   "widgets": [
     {
       "name": "Stats Widget",
@@ -26,49 +27,6 @@
       },
       "widgetId": "stats",
       "instanceId": "widget_4a26f20a-b69d-406a-af6d-fe1af7611f39"
-    },
-    {
-      "name": "Social-media Widget",
-      "size": {
-        "width": 735,
-        "height": 120
-      },
-      "config": {
-        "showTitle": true,
-        "textColor": "github-auto",
-        "badgeStyle": "for-the-badge",
-        "hideBorder": true,
-        "socialUrls": {
-          "email": "mailto:2563070658@qq.com",
-          "steam": "https://steamcommunity.com/profiles/76561199468675099",
-          "github": "https://github.com/qzh200",
-          "twitter": "https://x.com/yvone4247",
-          "website": "https://www.facebook.com/profile.php?id=61591549614343",
-          "youtube": "https://www.youtube.com/@%E6%B1%90%E8%A1%8C",
-          "instagram": "https://www.instagram.com/qzh_2006/"
-        },
-        "customTitle": "connect me",
-        "animationType": "slide-up",
-        "backgroundColor": "#0d1117",
-        "hideDecorations": false,
-        "selectedSocials": [
-          "github",
-          "twitter",
-          "email",
-          "telegram",
-          "steam"
-        ],
-        "animationPreviewKey": 12
-      },
-      "locked": false,
-      "zIndex": 4,
-      "visible": true,
-      "position": {
-        "x": 32.5,
-        "y": 1222
-      },
-      "widgetId": "social-media",
-      "instanceId": "widget_a6eb0012-2b60-4e69-a67e-1094416fe72f"
     },
     {
       "name": "Custom-image Widget",
@@ -186,7 +144,7 @@
     {
       "name": "Asciiprofile-heatmap Widget",
       "size": {
-        "width": 660,
+        "width": 750,
         "height": 240
       },
       "config": {
@@ -206,8 +164,8 @@
       "zIndex": 8,
       "visible": true,
       "position": {
-        "x": 70,
-        "y": 965
+        "x": 25,
+        "y": 964
       },
       "widgetId": "asciiprofile-heatmap",
       "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252"
@@ -236,16 +194,27 @@
       },
       "widgetId": "header",
       "instanceId": "widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92"
+    },
+    {
+      "instanceId": "widget_a08f94c6-297f-4a1b-8888-2687e1e4fdd1",
+      "widgetId": "footer",
+      "name": "Footer Widget",
+      "position": {
+        "x": 25,
+        "y": 1228
+      },
+      "size": {
+        "width": 750,
+        "height": 56
+      },
+      "config": {
+        "backgroundColor": "#0d1117"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
     }
   ],
-  "metadata": {
-    "revision": "rev_1794210666266",
-    "updatedAt": "2026-11-09T07:51:08.085Z"
-  },
-  "username": "qzh200",
-  "templateId": "terminal",
-  "profileName": "第二版",
-  "profileSlug": "default",
   "globalStyles": {
     "padding": 16,
     "textColor": "#ffffff",
@@ -254,7 +223,13 @@
     "accentColor": "#c5ff4a",
     "borderColor": "rgba(255,255,255,0.1)",
     "borderRadius": 8,
-    "backgroundColor": "transparent",
+    "backgroundColor": "#212830",
     "transparentBackground": false
+  },
+  "templateId": "terminal",
+  "profileSlug": "default",
+  "metadata": {
+    "revision": "rev_1794211323454_3c5es",
+    "updatedAt": "2026-11-09T08:02:05.731Z"
   }
 }
