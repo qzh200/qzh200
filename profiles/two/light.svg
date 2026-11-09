@@ -1,5 +1,5 @@
 
-<svg width="800" height="116" viewBox="0 0 800 116" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="1276" viewBox="0 0 800 1276" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Teko:wght@500;600;700&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Fira+Code:wght@300..700&amp;family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;family=Outfit:wght@100..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap');
 
@@ -29,7 +29,979 @@
     }
   </style>
 
-  <rect class="" width="800" height="116" fill="#ffffff" rx="8" />
+  <rect class="gitascii-canvas-bg" width="800" height="1276" fill="#ffffff" rx="8" />
 
+  
+    <g transform="translate(25, 98)" id="widget-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39">
+
+      
+        <style>
+          @keyframes svg-fade-in-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; }
+            to { opacity: 1; }
+          }
+          @keyframes svg-slide-up-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-down-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-left-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: translateX(12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-slide-right-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: translateX(-12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-zoom-in-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-zoom-out-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: scale(1.1); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-flip-x-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+          }
+          @keyframes svg-flip-y-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            from { opacity: 0; transform: perspective(400px) rotateY(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+          }
+          @keyframes svg-glitch-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            0% { opacity: 0; transform: skewX(10deg); }
+            20% { opacity: 0.8; transform: skewX(-10deg); }
+            40% { opacity: 0.5; transform: skewX(5deg); }
+            60% { opacity: 0.9; transform: skewX(0deg); }
+            100% { opacity: 1; }
+          }
+          @keyframes svg-scan-lines-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1 {
+            0% { opacity: 0; clip-path: inset(100% 0 0 0); }
+            100% { opacity: 1; clip-path: inset(0 0 0 0); }
+          }
+
+          #widget-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39 .anim-target {
+            animation-name: svg-fade-in-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39-1;
+            animation-duration: 1500ms;
+            animation-timing-function: ease-out;
+            animation-fill-mode: both;
+          }
+        </style>
+      
+      
+      <rect class="" x="0" y="0" width="750" height="120" fill="#0d1117" stroke="#212830" stroke-width="0" rx="8" />
+      
+      
+    <text class="anim-target" x="24" y="32" font-family="PT Serif" font-size="11" font-weight="500" fill="#7a7a7a" letter-spacing="2" style="animation-delay: 0ms; transform-origin: center;">[ GITHUB METRICS ]</text>
+    
+        <g transform="translate(24, 48)">
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 46ms; transform-origin: center;">0</text>
+          <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 92ms; transform-origin: center;">STARS</text>
+        </g>
+        <g transform="translate(141, 48)">
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 138ms; transform-origin: center;">13</text>
+          <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 185ms; transform-origin: center;">REPOS</text>
+        </g>
+        <g transform="translate(258, 48)">
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 231ms; transform-origin: center;">5</text>
+          <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 277ms; transform-origin: center;">FOLLOWERS</text>
+        </g>
+        <g transform="translate(375, 48)">
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 323ms; transform-origin: center;">11</text>
+          <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 369ms; transform-origin: center;">FOLLOWING</text>
+        </g>
+        <g transform="translate(492, 48)">
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 415ms; transform-origin: center;">0</text>
+          <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 462ms; transform-origin: center;">FORKS</text>
+        </g>
+        <g transform="translate(609, 48)">
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 508ms; transform-origin: center;">0</text>
+          <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 554ms; transform-origin: center;">GISTS</text>
+        </g>
+  
+  
+    </g>
+  
+
+    <g transform="translate(32.5, 1140)" id="widget-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f">
+
+      
+        <style>
+          @keyframes svg-fade-in-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; }
+            to { opacity: 1; }
+          }
+          @keyframes svg-slide-up-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-down-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-left-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: translateX(12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-slide-right-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: translateX(-12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-zoom-in-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-zoom-out-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: scale(1.1); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-flip-x-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+          }
+          @keyframes svg-flip-y-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            from { opacity: 0; transform: perspective(400px) rotateY(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+          }
+          @keyframes svg-glitch-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            0% { opacity: 0; transform: skewX(10deg); }
+            20% { opacity: 0.8; transform: skewX(-10deg); }
+            40% { opacity: 0.5; transform: skewX(5deg); }
+            60% { opacity: 0.9; transform: skewX(0deg); }
+            100% { opacity: 1; }
+          }
+          @keyframes svg-scan-lines-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12 {
+            0% { opacity: 0; clip-path: inset(100% 0 0 0); }
+            100% { opacity: 1; clip-path: inset(0 0 0 0); }
+          }
+
+          #widget-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f .anim-target {
+            animation-name: svg-slide-up-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f-12;
+            animation-duration: 1500ms;
+            animation-timing-function: ease-out;
+            animation-fill-mode: both;
+          }
+        </style>
+      
+      
+      <rect class="" x="0" y="0" width="735" height="120" fill="#0d1117" stroke="rgba(255,255,255,0.1)" stroke-width="0" rx="8" />
+      
+      <text x="6" y="14" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c5ff4a">+</text>
+      <text x="723" y="14" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c5ff4a">+</text>
+    
+      
+    <text class="anim-target" x="24" y="32" font-family="PT Serif" font-size="11" font-weight="500" fill="#7a7a7a" letter-spacing="2" style="animation-delay: 0ms; transform-origin: center;">connect me</text>
+    
+        <a href="https://github.com/qzh200" target="_blank" rel="noopener noreferrer" cursor="pointer">
+          <image class="anim-target" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NS41IiBoZWlnaHQ9IjI4IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdJVEhVQiI+PHRpdGxlPkdJVEhVQjwvdGl0bGU+PGcgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj48cmVjdCB3aWR0aD0iOTUuNSIgaGVpZ2h0PSIyOCIgZmlsbD0iIzE4MTcxNyIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMDAiPjxpbWFnZSB4PSI5IiB5PSI3IiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5Qm1hV3hzUFNKM2FHbDBaU0lnY205c1pUMGlhVzFuSWlCMmFXVjNRbTk0UFNJd0lEQWdNalFnTWpRaUlIaHRiRzV6UFNKb2RIUndPaTh2ZDNkM0xuY3pMbTl5Wnk4eU1EQXdMM04yWnlJK1BIUnBkR3hsUGtkcGRFaDFZand2ZEdsMGJHVStQSEJoZEdnZ1pEMGlUVEV5SUM0eU9UZGpMVFl1TmpNZ01DMHhNaUExTGpNM015MHhNaUF4TWlBd0lEVXVNekF6SURNdU5ETTRJRGt1T0NBNExqSXdOU0F4TVM0ek9EVXVOaTR4TVRNdU9ESXRMakkxT0M0NE1pMHVOVGMzSURBdExqSTROUzB1TURFdE1TNHdOQzB1TURFMUxUSXVNRFF0TXk0ek16Z3VOekkwTFRRdU1EUXlMVEV1TmpFdE5DNHdOREl0TVM0Mk1VTTBMalF5TWlBeE9DNHdOeUF6TGpZek15QXhOeTQzSURNdU5qTXpJREUzTGpkakxURXVNRGczTFM0M05EUXVNRGcwTFM0M01qa3VNRGcwTFM0M01qa2dNUzR5TURVdU1EZzBJREV1T0RNNElERXVNak0ySURFdU9ETTRJREV1TWpNMklERXVNRGNnTVM0NE16VWdNaTQ0TURrZ01TNHpNRFVnTXk0ME9UVXVPVGs0TGpFd09DMHVOemMyTGpReE55MHhMak13TlM0M05pMHhMall3TlMweUxqWTJOUzB1TXkwMUxqUTJOaTB4TGpNek1pMDFMalEyTmkwMUxqa3pJREF0TVM0ek1TNDBOalV0TWk0ek9DQXhMakl6TlMwekxqSXlMUzR4TXpVdExqTXdNeTB1TlRRdE1TNDFNak11TVRBMUxUTXVNVGMySURBZ01DQXhMakF3TlMwdU16SXlJRE11TXlBeExqSXpMamsyTFM0eU5qY2dNUzQ1T0MwdU16azVJRE10TGpRd05TQXhMakF5TGpBd05pQXlMakEwTGpFek9DQXpJQzQwTURVZ01pNHlPQzB4TGpVMU1pQXpMakk0TlMweExqSXpJRE11TWpnMUxURXVNak11TmpRMUlERXVOalV6TGpJMElESXVPRGN6TGpFeUlETXVNVGMyTGpjMk5TNDROQ0F4TGpJeklERXVPVEVnTVM0eU15QXpMakl5SURBZ05DNDJNUzB5TGpnd05TQTFMall5TlMwMUxqUTNOU0ExTGpreUxqUXlMak0yTGpneElERXVNRGsyTGpneElESXVNaklnTUNBeExqWXdOaTB1TURFMUlESXVPRGsyTFM0d01UVWdNeTR5T0RZZ01DQXVNekUxTGpJeExqWTVMamd5TlM0MU4wTXlNQzQxTmpVZ01qSXVNRGt5SURJMElERTNMalU1TWlBeU5DQXhNaTR5T1Rkak1DMDJMall5TnkwMUxqTTNNeTB4TWkweE1pMHhNaUl2UGp3dmMzWm5QZz09Ii8+PHRleHQgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHg9IjU3Ny41IiB5PSIxNzUiIHRleHRMZW5ndGg9IjUxNSIgZm9udC13ZWlnaHQ9ImJvbGQiPkdJVEhVQjwvdGV4dD48L2c+PC9zdmc+" x="24" y="44" width="100" height="28" preserveAspectRatio="xMinYMid meet"  style="animation-delay: 100ms; transform-origin: center;" />
+        </a>
+      
+
+        <a href="https://x.com/yvone4247" target="_blank" rel="noopener noreferrer" cursor="pointer">
+          <image class="anim-target" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzAuNzUiIGhlaWdodD0iMjgiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iWCAoVFdJVFRFUikiPjx0aXRsZT5YIChUV0lUVEVSKTwvdGl0bGU+PGcgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj48cmVjdCB3aWR0aD0iMTMwLjc1IiBoZWlnaHQ9IjI4IiBmaWxsPSIjMDAwMDAwIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjEwMCI+PGltYWdlIHg9IjkiIHk9IjciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgaHJlZj0iZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCbWFXeHNQU0ozYUdsMFpTSWdjbTlzWlQwaWFXMW5JaUIyYVdWM1FtOTRQU0l3SURBZ01qUWdNalFpSUhodGJHNXpQU0pvZEhSd09pOHZkM2QzTG5jekxtOXlaeTh5TURBd0wzTjJaeUkrUEhScGRHeGxQbGc4TDNScGRHeGxQanh3WVhSb0lHUTlJazB4TkM0eU16UWdNVEF1TVRZeUlESXlMamszTnlBd2FDMHlMakEzTW13dE55NDFPVEVnT0M0NE1qUk1OeTR5TlRFZ01FZ3VNalU0YkRrdU1UWTRJREV6TGpNME0wd3VNalU0SURJMFNESXVNek5zT0M0d01UWXRPUzR6TVRoTU1UWXVOelE1SURJMGFEWXVPVGt6ZW0wdE1pNDRNemNnTXk0eU9Ua3RMamt5T1MweExqTXlPVXd6TGpBM05pQXhMalUyYURNdU1UZ3liRFV1T1RZMUlEZ3VOVE15TGpreU9TQXhMak15T1NBM0xqYzFOQ0F4TVM0d09XZ3RNeTR4T0RKNklpOCtQQzl6ZG1jKyIvPjx0ZXh0IHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB4PSI3NTMuNzUiIHk9IjE3NSIgdGV4dExlbmd0aD0iODY3LjUiIGZvbnQtd2VpZ2h0PSJib2xkIj5YIChUV0lUVEVSKTwvdGV4dD48L2c+PC9zdmc+" x="134" y="44" width="138" height="28" preserveAspectRatio="xMinYMid meet"  style="animation-delay: 200ms; transform-origin: center;" />
+        </a>
+      
+
+        <a href="mailto:2563070658@qq.com" target="_blank" rel="noopener noreferrer" cursor="pointer">
+          <image class="anim-target" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NS4yNSIgaGVpZ2h0PSIyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJFTUFJTCI+PHRpdGxlPkVNQUlMPC90aXRsZT48ZyBzaGFwZS1yZW5kZXJpbmc9ImNyaXNwRWRnZXMiPjxyZWN0IHdpZHRoPSI4NS4yNSIgaGVpZ2h0PSIyOCIgZmlsbD0iI2VhNDMzNSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMDAiPjxpbWFnZSB4PSI5IiB5PSI3IiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5Qm1hV3hzUFNKM2FHbDBaU0lnY205c1pUMGlhVzFuSWlCMmFXVjNRbTk0UFNJd0lEQWdNalFnTWpRaUlIaHRiRzV6UFNKb2RIUndPaTh2ZDNkM0xuY3pMbTl5Wnk4eU1EQXdMM04yWnlJK1BIUnBkR3hsUGtkdFlXbHNQQzkwYVhSc1pUNDhjR0YwYUNCa1BTSk5NalFnTlM0ME5UZDJNVE11T1RBNVl6QWdMamt3TkMwdU56TXlJREV1TmpNMkxURXVOak0ySURFdU5qTTJhQzB6TGpneE9WWXhNUzQzTTB3eE1pQXhOaTQyTkd3dE5pNDFORFV0TkM0NU1YWTVMakkzTTBneExqWXpOa0V4TGpZek5pQXhMall6TmlBd0lEQWdNU0F3SURFNUxqTTJObFkxTGpRMU4yTXdMVEl1TURJeklESXVNekE1TFRNdU1UYzRJRE11T1RJM0xURXVPVFkwVERVdU5EVTFJRFF1TmpRZ01USWdPUzQxTkRoc05pNDFORFV0TkM0NU1TQXhMalV5T0MweExqRTBOVU15TVM0Mk9TQXlMakk0SURJMElETXVORE0wSURJMElEVXVORFUzZWlJdlBqd3ZjM1puUGc9PSIvPjx0ZXh0IHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB4PSI1MjYuMjUiIHk9IjE3NSIgdGV4dExlbmd0aD0iNDEyLjUiIGZvbnQtd2VpZ2h0PSJib2xkIj5FTUFJTDwvdGV4dD48L2c+PC9zdmc+" x="282" y="44" width="92" height="28" preserveAspectRatio="xMinYMid meet"  style="animation-delay: 300ms; transform-origin: center;" />
+        </a>
+      
+
+        <a href="https://t.me/qzh200" target="_blank" rel="noopener noreferrer" cursor="pointer">
+          <image class="anim-target" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTQiIGhlaWdodD0iMjgiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iVEVMRUdSQU0iPjx0aXRsZT5URUxFR1JBTTwvdGl0bGU+PGcgc2hhcGUtcmVuZGVyaW5nPSJjcmlzcEVkZ2VzIj48cmVjdCB3aWR0aD0iMTE0IiBoZWlnaHQ9IjI4IiBmaWxsPSIjMjZhNWU0Ii8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjEwMCI+PGltYWdlIHg9IjkiIHk9IjciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgaHJlZj0iZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCbWFXeHNQU0ozYUdsMFpTSWdjbTlzWlQwaWFXMW5JaUIyYVdWM1FtOTRQU0l3SURBZ01qUWdNalFpSUhodGJHNXpQU0pvZEhSd09pOHZkM2QzTG5jekxtOXlaeTh5TURBd0wzTjJaeUkrUEhScGRHeGxQbFJsYkdWbmNtRnRQQzkwYVhSc1pUNDhjR0YwYUNCa1BTSk5NVEV1T1RRMElEQkJNVElnTVRJZ01DQXdJREFnTUNBeE1tRXhNaUF4TWlBd0lEQWdNQ0F4TWlBeE1pQXhNaUF4TWlBd0lEQWdNQ0F4TWkweE1rRXhNaUF4TWlBd0lEQWdNQ0F4TWlBd1lURXlJREV5SURBZ01DQXdMUzR3TlRZZ01IcHROQzQ1TmpJZ055NHlNalJqTGpFdExqQXdNaTR6TWpFdU1ESXpMalEyTlM0eE5HRXVOVEEyTGpVd05pQXdJREFnTVNBdU1UY3hMak15TldNdU1ERTJMakE1TXk0d016WXVNekEyTGpBeUxqUTNNaTB1TVRnZ01TNDRPVGd0TGprMk1pQTJMalV3TWkweExqTTJJRGd1TmpJM0xTNHhOamd1T1MwdU5EazVJREV1TWpBeExTNDRNaUF4TGpJekxTNDJPVFl1TURZMUxURXVNakkxTFM0ME5pMHhMamt0TGprd01pMHhMakExTmkwdU5qa3pMVEV1TmpVekxURXVNVEkwTFRJdU5qYzRMVEV1T0MweExqRTROUzB1TnpndExqUXhOeTB4TGpJeExqSTFPQzB4TGpreExqRTNOeTB1TVRnMElETXVNalEzTFRJdU9UYzNJRE11TXpBM0xUTXVNak11TURBM0xTNHdNekl1TURFMExTNHhOUzB1TURVMkxTNHlNVEp6TFM0eE56UXRMakEwTVMwdU1qUTVMUzR3TWpSakxTNHhNRFl1TURJMExURXVOemt6SURFdU1UUXROUzR3TmpFZ015NHpORFV0TGpRNExqTXpMUzQ1TVRNdU5Ea3RNUzR6TURJdU5EZ3RMalF5T0MwdU1EQTRMVEV1TWpVeUxTNHlOREV0TVM0NE5qVXRMalEwTFM0M05USXRMakkwTlMweExqTTBPUzB1TXpjMExURXVNamszTFM0M09Ea3VNREkzTFM0eU1UWXVNekkxTFM0ME16Y3VPRGt6TFM0Mk5qTWdNeTQwT1RndE1TNDFNalFnTlM0NE15MHlMalV5T1NBMkxqazVPQzB6TGpBeE5DQXpMak16TWkweExqTTROaUEwTGpBeU5TMHhMall5TnlBMExqUTNOaTB4TGpZek5Yb2lMejQ4TDNOMlp6ND0iLz48dGV4dCB0cmFuc2Zvcm09InNjYWxlKC4xKSIgeD0iNjcwIiB5PSIxNzUiIHRleHRMZW5ndGg9IjcwMCIgZm9udC13ZWlnaHQ9ImJvbGQiPlRFTEVHUkFNPC90ZXh0PjwvZz48L3N2Zz4=" x="384" y="44" width="115" height="28" preserveAspectRatio="xMinYMid meet"  style="animation-delay: 400ms; transform-origin: center;" />
+        </a>
+      
+
+        <a href="https://steamcommunity.com/profiles/76561199468675099" target="_blank" rel="noopener noreferrer" cursor="pointer">
+          <image class="anim-target" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4Ny4yNSIgaGVpZ2h0PSIyOCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTVEVBTSI+PHRpdGxlPlNURUFNPC90aXRsZT48ZyBzaGFwZS1yZW5kZXJpbmc9ImNyaXNwRWRnZXMiPjxyZWN0IHdpZHRoPSI4Ny4yNSIgaGVpZ2h0PSIyOCIgZmlsbD0iIzAwMDAwMCIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMDAiPjxpbWFnZSB4PSI5IiB5PSI3IiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5Qm1hV3hzUFNKM2FHbDBaU0lnY205c1pUMGlhVzFuSWlCMmFXVjNRbTk0UFNJd0lEQWdNalFnTWpRaUlIaHRiRzV6UFNKb2RIUndPaTh2ZDNkM0xuY3pMbTl5Wnk4eU1EQXdMM04yWnlJK1BIUnBkR3hsUGxOMFpXRnRQQzkwYVhSc1pUNDhjR0YwYUNCa1BTSk5NVEV1T1RjNUlEQkROUzQyTnpnZ01DQXVOVEV4SURRdU9EWXVNREl5SURFeExqQXpOMncyTGpRek1pQXlMalkxT0dNdU5UUTFMUzR6TnpFZ01TNHlNRE10TGpVNUlERXVPVEV5TFM0MU9TNHdOak1nTUNBdU1USTFMakF3TkM0eE9EZ3VNREEyYkRJdU9EWXhMVFF1TVRReVZqZ3VPVEZqTUMweUxqUTVOU0F5TGpBeU9DMDBMalV5TkNBMExqVXlOQzAwTGpVeU5DQXlMalE1TkNBd0lEUXVOVEkwSURJdU1ETXhJRFF1TlRJMElEUXVOVEkzY3kweUxqQXpJRFF1TlRJMUxUUXVOVEkwSURRdU5USTFhQzB1TVRBMWJDMDBMakEzTmlBeUxqa3hNV013SUM0d05USXVNREEwTGpFd05TNHdNRFF1TVRVNUlEQWdNUzQ0TnpVdE1TNDFNVFVnTXk0ek9UWXRNeTR6T1NBekxqTTVOaTB4TGpZek5TQXdMVE11TURFMkxURXVNVGN6TFRNdU16TXhMVEl1TnpJM1RDNDBNellnTVRVdU1qZERNUzQ0TmpJZ01qQXVNekEzSURZdU5EZzJJREkwSURFeExqazNPU0F5TkdNMkxqWXlOeUF3SURFeExqazVPUzAxTGpNM015QXhNUzQ1T1RrdE1USlRNVGd1TmpBMUlEQWdNVEV1T1RjNUlEQjZUVGN1TlRRZ01UZ3VNakZzTFRFdU5EY3pMUzQyTVdNdU1qWXlMalUwTXk0M01UUXVPVGs1SURFdU16RTBJREV1TWpVZ01TNHlPVGN1TlRNNUlESXVOemt6TFM0d056WWdNeTR6TXpJdE1TNHpOelV1TWpZekxTNDJNeTR5TmpRdE1TNHpNVGt1TURBMUxURXVPVFE1Y3kwdU56VXRNUzR4TWpFdE1TNHpOemN0TVM0ek9ETmpMUzQyTWpRdExqSTJMVEV1TWprdExqSTBPUzB4TGpnM09DMHVNRE5zTVM0MU1qTXVOak5qTGprMU5pNDBJREV1TkRBNUlERXVOU0F4TGpBd09TQXlMalExTlMwdU16azNMamsxTnkweExqUTVOeUF4TGpReExUSXVORFUwSURFdU1ERXlTRGN1TlRSNmJURXhMalF4TlMwNUxqTXdNMk13TFRFdU5qWXlMVEV1TXpVekxUTXVNREUxTFRNdU1ERTFMVE11TURFMUxURXVOalkxSURBdE15NHdNVFVnTVM0ek5UTXRNeTR3TVRVZ015NHdNVFVnTUNBeExqWTJOU0F4TGpNMUlETXVNREUxSURNdU1ERTFJRE11TURFMUlERXVOall6SURBZ015NHdNVFV0TVM0ek5TQXpMakF4TlMwekxqQXhOWHB0TFRVdU1qY3pMUzR3TURWak1DMHhMakkxTWlBeExqQXhNeTB5TGpJMk5pQXlMakkyTlMweUxqSTJOaUF4TGpJME9TQXdJREl1TWpZMklERXVNREUwSURJdU1qWTJJREl1TWpZMklEQWdNUzR5TlRFdE1TNHdNVGNnTWk0eU5qVXRNaTR5TmpZZ01pNHlOalV0TVM0eU5UTWdNQzB5TGpJMk5TMHhMakF4TkMweUxqSTJOUzB5TGpJMk5Yb2lMejQ4TDNOMlp6ND0iLz48dGV4dCB0cmFuc2Zvcm09InNjYWxlKC4xKSIgeD0iNTM2LjI1IiB5PSIxNzUiIHRleHRMZW5ndGg9IjQzMi41IiBmb250LXdlaWdodD0iYm9sZCI+U1RFQU08L3RleHQ+PC9nPjwvc3ZnPg==" x="509" y="44" width="92" height="28" preserveAspectRatio="xMinYMid meet"  style="animation-delay: 500ms; transform-origin: center;" />
+        </a>
+      
+  
+  
+    </g>
+  
+
+    <g transform="translate(21.5, 218)" id="widget-widget_9afbaa5e-c890-4b51-b20c-95067b4924b7">
+
+      
+          <style>
+            @keyframes typewriter-clip-widget_9afbaa5e-c890-4b51-b20c-95067b4924b7-1 {
+              from { width: 0; }
+              to { width: 385px; }
+            }
+            #widget-widget_9afbaa5e-c890-4b51-b20c-95067b4924b7 .typewriter-target {
+              animation: typewriter-clip-widget_9afbaa5e-c890-4b51-b20c-95067b4924b7-1 1500ms linear 0ms both;
+            }
+          </style>
+        
+      
+      <rect class="" x="0" y="0" width="385" height="165" fill="transparent" stroke="rgba(255,255,255,0.1)" stroke-width="0" rx="8" />
+      
+      
+          <clipPath id="typewriter-clip-widget_9afbaa5e-c890-4b51-b20c-95067b4924b7-1">
+            <rect class="typewriter-target" x="0" y="0" width="0" height="165" />
+          </clipPath>
+          <g clip-path="url(#typewriter-clip-widget_9afbaa5e-c890-4b51-b20c-95067b4924b7-1)">
+            
+    
+    <svg width="353" height="133" x="16" y="16" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="#141414" rx="6" ry="6" stroke="#333" stroke-dasharray="4" />
+            <text x="50%" y="50%" fill="#888888" font-family="monospace" font-size="11" text-anchor="middle" dominant-baseline="middle">Failed to load widget</text>
+          </svg>
+  
+          </g>
+        
+  
+    </g>
+  
+
+    <g transform="translate(18, 383)" id="widget-widget_ad83795b-61c1-4462-95a8-826a1a337c02">
+
+      
+          <style>
+            @keyframes typewriter-clip-widget_ad83795b-61c1-4462-95a8-826a1a337c02-12 {
+              from { width: 0; }
+              to { width: 392px; }
+            }
+            #widget-widget_ad83795b-61c1-4462-95a8-826a1a337c02 .typewriter-target {
+              animation: typewriter-clip-widget_ad83795b-61c1-4462-95a8-826a1a337c02-12 1500ms linear 0ms both;
+            }
+          </style>
+        
+      
+      <rect class="" x="0" y="0" width="392" height="165" fill="transparent" stroke="rgba(255,255,255,0.1)" stroke-width="0" rx="8" />
+      
+      
+          <clipPath id="typewriter-clip-widget_ad83795b-61c1-4462-95a8-826a1a337c02-12">
+            <rect class="typewriter-target" x="0" y="0" width="0" height="165" />
+          </clipPath>
+          <g clip-path="url(#typewriter-clip-widget_ad83795b-61c1-4462-95a8-826a1a337c02-12)">
+            
+    
+    <svg width="360" height="133" x="16" y="16" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="#141414" rx="6" ry="6" stroke="#333" stroke-dasharray="4" />
+            <text x="50%" y="50%" fill="#888888" font-family="monospace" font-size="11" text-anchor="middle" dominant-baseline="middle">Failed to load widget</text>
+          </svg>
+  
+          </g>
+        
+  
+    </g>
+  
+
+    <g transform="translate(0, 532)" id="widget-widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce">
+
+      
+          <style>
+            @keyframes typewriter-clip-widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce-17 {
+              from { width: 0; }
+              to { width: 800px; }
+            }
+            #widget-widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce .typewriter-target {
+              animation: typewriter-clip-widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce-17 1500ms linear 0ms both;
+            }
+          </style>
+        
+      
+      <rect class="" x="0" y="0" width="800" height="336" fill="transparent" stroke="rgba(255,255,255,0.1)" stroke-width="0" rx="8" />
+      
+      
+          <clipPath id="typewriter-clip-widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce-17">
+            <rect class="typewriter-target" x="0" y="0" width="0" height="336" />
+          </clipPath>
+          <g clip-path="url(#typewriter-clip-widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce-17)">
+            
+    
+    <svg width="768" height="304" x="16" y="16" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="#141414" rx="6" ry="6" stroke="#333" stroke-dasharray="4" />
+            <text x="50%" y="50%" fill="#888888" font-family="monospace" font-size="11" text-anchor="middle" dominant-baseline="middle">Failed to load widget</text>
+          </svg>
+  
+          </g>
+        
+  
+    </g>
+  
+
+    <g transform="translate(410, 218)" id="widget-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298">
+
+      
+        <style>
+          @keyframes svg-fade-in-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; }
+            to { opacity: 1; }
+          }
+          @keyframes svg-slide-up-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-down-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-left-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: translateX(12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-slide-right-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: translateX(-12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-zoom-in-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-zoom-out-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: scale(1.1); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-flip-x-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+          }
+          @keyframes svg-flip-y-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            from { opacity: 0; transform: perspective(400px) rotateY(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+          }
+          @keyframes svg-glitch-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            0% { opacity: 0; transform: skewX(10deg); }
+            20% { opacity: 0.8; transform: skewX(-10deg); }
+            40% { opacity: 0.5; transform: skewX(5deg); }
+            60% { opacity: 0.9; transform: skewX(0deg); }
+            100% { opacity: 1; }
+          }
+          @keyframes svg-scan-lines-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3 {
+            0% { opacity: 0; clip-path: inset(100% 0 0 0); }
+            100% { opacity: 1; clip-path: inset(0 0 0 0); }
+          }
+
+          #widget-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298 .anim-target {
+            animation-name: svg-slide-down-widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298-3;
+            animation-duration: 1500ms;
+            animation-timing-function: ease-out;
+            animation-fill-mode: both;
+          }
+        </style>
+      
+      
+      <rect class="" x="0" y="0" width="390" height="330" fill="transparent" stroke="rgba(255,255,255,0.1)" stroke-width="0" rx="8" />
+      
+      
+    
+    <style>
+.title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; animation: fadeIn .8s ease-in-out forwards; }
+    .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .value { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; }
+    .trend-text { font: 700 10px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .ring-grade { font: 800 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+    .ring-pct { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9; opacity: 0.7; }
+    .row   { opacity: 0; animation: fadeIn .3s ease-in-out forwards; }
+    .ring-progress { animation: ringFill 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes ringFill {
+      from { stroke-dashoffset: 251.32741228718345; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .row, .title { animation: none !important; opacity: 1; }
+      .ring-progress { animation: none !important; }
+    }
+</style>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="跨越星轨的客&apos;s GitHub Stats" x="16" y="16" width="358" height="298" preserveAspectRatio="xMinYMin meet" viewBox="0 0 495 430">
+  <title>跨越星轨的客&apos;s GitHub Stats</title>
+  
+  <rect x="0.5" y="0.5" rx="4.5" ry="4.5" width="494" height="429" fill="#0d1117"/>
+  <text x="25" y="43" class="title">跨越星轨的客&apos;s GitHub Stats</text>
+    <g class="row" style="animation-delay:0ms">
+      <svg x="25" y="60" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg>
+      <text x="50" y="72.5" class="label">Total Stars Earned:</text>
+      <text x="350" y="72.5" class="value" text-anchor="end">0</text>
+      
+    </g>
+    <g class="row" style="animation-delay:150ms">
+      <svg x="25" y="85" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
+      <text x="50" y="97.5" class="label">Total Commits (2026):</text>
+      <text x="350" y="97.5" class="value" text-anchor="end">310</text>
+      
+    </g>
+    <g class="row" style="animation-delay:300ms">
+      <svg x="25" y="110" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M7.177 3.073 9.573.677A.25.25 0 0 1 10 .854v4.792a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354zM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5zm-2.25.75a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25zM11 2.5h-1V4h1a1 1 0 0 1 1 1v5.628a2.251 2.251 0 1 0 1.5 0V5A2.5 2.5 0 0 0 11 2.5zm1 10.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0zM3.75 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5z"/></svg>
+      <text x="50" y="122.5" class="label">Pull Requests:</text>
+      <text x="350" y="122.5" class="value" text-anchor="end">3</text>
+      
+    </g>
+    <g class="row" style="animation-delay:450ms">
+      <svg x="25" y="135" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/></svg>
+      <text x="50" y="147.5" class="label">Issues Opened:</text>
+      <text x="350" y="147.5" class="value" text-anchor="end">3</text>
+      
+    </g>
+    <g class="row" style="animation-delay:600ms">
+      <svg x="25" y="160" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
+      <text x="50" y="172.5" class="label">Estimated Coding Hours:</text>
+      <text x="350" y="172.5" class="value" text-anchor="end">160.7h</text>
+      
+    </g>
+    <g class="row" style="animation-delay:750ms">
+      <svg x="25" y="185" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 2.73.473.943.114 1.5-.455 1.5-.638 0-1.18-.504-1.48-1.089a3.645 3.645 0 0 1-.346-1.323 3.9 3.9 0 0 0-.6.961c-.563.767-.895 1.636-.895 2.622 0 2.52 2.168 4.5 5 4.5z"/></svg>
+      <text x="50" y="197.5" class="label">Current Streak:</text>
+      <text x="350" y="197.5" class="value" text-anchor="end">1 day</text>
+      
+    </g>
+    <g class="row" style="animation-delay:900ms">
+      <svg x="25" y="210" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0zm0 3.5h-.75a.25.25 0 0 0-.25.25V6h8.5V3.75a.25.25 0 0 0-.25-.25h-.75v.75a.75.75 0 0 1-1.5 0V3.5h-5v.75a.75.75 0 0 1-1.5 0zm-1.5 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5z"/></svg>
+      <text x="50" y="222.5" class="label">Commits This Week:</text>
+      <text x="350" y="222.5" class="value" text-anchor="end">13</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1050ms">
+      <svg x="25" y="235" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M.75 8a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 .75 8zm4-4a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-1.5 0v-9.5A.75.75 0 0 1 4.75 4zM8.75 0a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-1.5 0V.75a.75.75 0 0 1 .75-.75zm4 2a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V2.75a.75.75 0 0 1 .75-.75z"/></svg>
+      <text x="50" y="247.5" class="label">Weekly Trend:</text>
+      <text x="350" y="247.5" class="value" text-anchor="end">13 commits</text>
+      <g transform="translate(222, 237)">
+          <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-86%</text>
+        </g>
+    </g>
+    <g class="row" style="animation-delay:1200ms">
+      <svg x="25" y="260" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
+      <text x="50" y="272.5" class="label">Avg Commits / Day:</text>
+      <text x="350" y="272.5" class="value" text-anchor="end">1.3</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1350ms">
+      <svg x="25" y="285" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0zm9.78-2.22-4.03 4.03-1.97-1.97a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l4.56-4.56a.75.75 0 0 0-1.06-1.06z"/></svg>
+      <text x="50" y="297.5" class="label">Most Active Day:</text>
+      <text x="350" y="297.5" class="value" text-anchor="end">Tuesday</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1500ms">
+      <svg x="25" y="310" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M4.25 1a.25.25 0 0 0-.25.25v1h-1A1.75 1.75 0 0 0 1.25 4v1c0 .966.784 1.75 1.75 1.75h.25v.457a4.002 4.002 0 0 0 2.5 3.693V12h-1a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-1v-1.1a4.002 4.002 0 0 0 2.5-3.693V6.75h.25c.966 0 1.75-.784 1.75-1.75V4c0-.966-.784-1.75-1.75-1.75h-1v-1A.25.25 0 0 0 11.75 1zM3 4.25h1v2.5H3.25a.25.25 0 0 1-.25-.25V4.25zm10 0v2.25a.25.25 0 0 1-.25.25H12v-2.5z"/></svg>
+      <text x="50" y="322.5" class="label">Activity Grade:</text>
+      <text x="350" y="322.5" class="value" text-anchor="end">B</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1650ms">
+      <svg x="25" y="335" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
+      <text x="50" y="347.5" class="label">Contributions This Year:</text>
+      <text x="350" y="347.5" class="value" text-anchor="end">486</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1800ms">
+      <svg x="25" y="360" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 0 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8zm-8 11h8v1.5h-8a1 1 0 0 1 0-2z"/></svg>
+      <text x="50" y="372.5" class="label">Public Repos:</text>
+      <text x="350" y="372.5" class="value" text-anchor="end">12</text>
+      
+    </g>
+    <g class="row" style="animation-delay:1950ms">
+      <svg x="25" y="385" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M5.5 3.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4.001 4.001 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.49 3.49 0 0 1 2 5.5zM11 4a.75.75 0 1 0 0 1.5 1.5 1.5 0 0 1 .666 2.844.75.75 0 0 0-.416.672v.352a.75.75 0 0 0 .574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 1 0 1.434-.44 5.01 5.01 0 0 0-2.56-3.012A3 3 0 0 0 11 4z"/></svg>
+      <text x="50" y="397.5" class="label">Followers:</text>
+      <text x="350" y="397.5" class="value" text-anchor="end">5</text>
+      
+    </g>
+  
+  <circle cx="425" cy="235" r="40" fill="none" stroke="#30363d" stroke-width="5" opacity="0.3"/>
+  <circle cx="425" cy="235" r="40" fill="none" stroke="#58a6ff" stroke-width="5"
+    stroke-linecap="round" stroke-dasharray="251.32741228718345" stroke-dashoffset="143.25662500369458"
+    transform="rotate(-90 425 235)" class="ring-progress"/>
+  <text x="425" y="229" text-anchor="middle" class="ring-grade">B</text>
+  <text x="425" y="247" text-anchor="middle" class="ring-pct">43%</text>
+</svg>
+  
+  
+    </g>
+  
+
+    <g transform="translate(70, 876)" id="widget-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252">
+
+      
+      
+      
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="660" height="240" viewBox="0 0 660 240" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<style>@keyframes cell-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252 {  0%   { opacity: 0; transform: translateY(-6px); }  100% { opacity: 1; transform: translateY(0); }}.c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252 { opacity: 0; animation: cell-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252 0.42s cubic-bezier(.2,.8,.2,1) both; }</style>
+<defs><linearGradient id="heatmap-bg-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1420"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+<rect width="660" height="240" rx="8" fill="url(#heatmap-bg-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252)"/>
+<rect x="0.5" y="0.5" width="659" height="239" rx="8" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-opacity="0.55"/>
+<line x1="0" y1="30" x2="660" y2="30" stroke="rgba(255,255,255,0.1)" stroke-opacity="0.35"/>
+<circle cx="22" cy="15" r="5" fill="#ff5f56"/>
+<circle cx="38" cy="15" r="5" fill="#ffbd2e"/>
+<circle cx="54" cy="15" r="5" fill="#27c93f"/>
+<text x="330" y="19" fill="#7d8590" font-size="12" text-anchor="middle">qzh200@github: ~/contributions --graph</text>
+<text x="96.39393939393939" y="44" fill="#7d8590" font-size="10">Dec</text>
+<text x="140.78787878787878" y="44" fill="#7d8590" font-size="10">Jan</text>
+<text x="185.1818181818182" y="44" fill="#7d8590" font-size="10">Feb</text>
+<text x="229.57575757575756" y="44" fill="#7d8590" font-size="10">Mar</text>
+<text x="285.0681818181818" y="44" fill="#7d8590" font-size="10">Apr</text>
+<text x="329.4621212121212" y="44" fill="#7d8590" font-size="10">May</text>
+<text x="384.95454545454544" y="44" fill="#7d8590" font-size="10">Jun</text>
+<text x="429.3484848484848" y="44" fill="#7d8590" font-size="10">Jul</text>
+<text x="473.7424242424242" y="44" fill="#7d8590" font-size="10">Aug</text>
+<text x="529.2348484848485" y="44" fill="#7d8590" font-size="10">Sep</text>
+<text x="573.6287878787879" y="44" fill="#7d8590" font-size="10">Oct</text>
+<text x="618.0227272727273" y="44" fill="#7d8590" font-size="10">Nov</text>
+<text x="22" y="68.0" fill="#7d8590" font-size="9">Mon</text>
+<text x="22" y="90.2" fill="#7d8590" font-size="9">Wed</text>
+<text x="22" y="112.4" fill="#7d8590" font-size="9">Fri</text>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.000s" x="52" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.045s" x="52" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.090s" x="52" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.135s" x="52" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.180s" x="52" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.225s" x="52" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.270s" x="52" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.018s" x="63.098484848484844" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.063s" x="63.098484848484844" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.108s" x="63.098484848484844" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.153s" x="63.098484848484844" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.198s" x="63.098484848484844" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.243s" x="63.098484848484844" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.288s" x="63.098484848484844" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.036s" x="74.19696969696969" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.081s" x="74.19696969696969" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.126s" x="74.19696969696969" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.171s" x="74.19696969696969" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.216s" x="74.19696969696969" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.261s" x="74.19696969696969" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.306s" x="74.19696969696969" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.054s" x="85.29545454545455" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-11-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.099s" x="85.29545454545455" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.144s" x="85.29545454545455" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.189s" x="85.29545454545455" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.234s" x="85.29545454545455" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.279s" x="85.29545454545455" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.324s" x="85.29545454545455" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.072s" x="96.39393939393939" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.117s" x="96.39393939393939" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.162s" x="96.39393939393939" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.207s" x="96.39393939393939" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.252s" x="96.39393939393939" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.297s" x="96.39393939393939" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.342s" x="96.39393939393939" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.090s" x="107.49242424242424" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.135s" x="107.49242424242424" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.180s" x="107.49242424242424" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.225s" x="107.49242424242424" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.270s" x="107.49242424242424" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.315s" x="107.49242424242424" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.360s" x="107.49242424242424" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.108s" x="118.5909090909091" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.153s" x="118.5909090909091" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.198s" x="118.5909090909091" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.243s" x="118.5909090909091" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.288s" x="118.5909090909091" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.333s" x="118.5909090909091" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.378s" x="118.5909090909091" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.126s" x="129.68939393939394" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.171s" x="129.68939393939394" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.216s" x="129.68939393939394" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.261s" x="129.68939393939394" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2025-12-31: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.306s" x="129.68939393939394" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.351s" x="129.68939393939394" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.396s" x="129.68939393939394" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.144s" x="140.78787878787878" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.189s" x="140.78787878787878" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.234s" x="140.78787878787878" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.279s" x="140.78787878787878" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.324s" x="140.78787878787878" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.369s" x="140.78787878787878" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.414s" x="140.78787878787878" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.162s" x="151.88636363636363" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.207s" x="151.88636363636363" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-01-12: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.252s" x="151.88636363636363" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.297s" x="151.88636363636363" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.342s" x="151.88636363636363" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.387s" x="151.88636363636363" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.432s" x="151.88636363636363" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.180s" x="162.98484848484847" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.225s" x="162.98484848484847" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-01-19: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.270s" x="162.98484848484847" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.315s" x="162.98484848484847" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.360s" x="162.98484848484847" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.405s" x="162.98484848484847" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.450s" x="162.98484848484847" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.198s" x="174.08333333333331" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.243s" x="174.08333333333331" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.288s" x="174.08333333333331" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.333s" x="174.08333333333331" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.378s" x="174.08333333333331" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.423s" x="174.08333333333331" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.468s" x="174.08333333333331" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-01-31: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.216s" x="185.1818181818182" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.261s" x="185.1818181818182" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.306s" x="185.1818181818182" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.351s" x="185.1818181818182" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.396s" x="185.1818181818182" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.441s" x="185.1818181818182" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.486s" x="185.1818181818182" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.234s" x="196.28030303030303" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.279s" x="196.28030303030303" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.324s" x="196.28030303030303" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.369s" x="196.28030303030303" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.414s" x="196.28030303030303" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.459s" x="196.28030303030303" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.504s" x="196.28030303030303" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.252s" x="207.37878787878788" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.297s" x="207.37878787878788" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.342s" x="207.37878787878788" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.387s" x="207.37878787878788" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.432s" x="207.37878787878788" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.477s" x="207.37878787878788" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.522s" x="207.37878787878788" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.270s" x="218.47727272727272" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.315s" x="218.47727272727272" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.360s" x="218.47727272727272" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.405s" x="218.47727272727272" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.450s" x="218.47727272727272" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.495s" x="218.47727272727272" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.540s" x="218.47727272727272" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-02-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.288s" x="229.57575757575756" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.333s" x="229.57575757575756" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.378s" x="229.57575757575756" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.423s" x="229.57575757575756" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.468s" x="229.57575757575756" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.513s" x="229.57575757575756" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.558s" x="229.57575757575756" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.306s" x="240.6742424242424" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.351s" x="240.6742424242424" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.396s" x="240.6742424242424" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.441s" x="240.6742424242424" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.486s" x="240.6742424242424" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.531s" x="240.6742424242424" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.576s" x="240.6742424242424" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.324s" x="251.77272727272725" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.369s" x="251.77272727272725" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.414s" x="251.77272727272725" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.459s" x="251.77272727272725" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.504s" x="251.77272727272725" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.549s" x="251.77272727272725" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.594s" x="251.77272727272725" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.342s" x="262.8712121212121" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.387s" x="262.8712121212121" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.432s" x="262.8712121212121" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.477s" x="262.8712121212121" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.522s" x="262.8712121212121" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.567s" x="262.8712121212121" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.612s" x="262.8712121212121" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.360s" x="273.96969696969694" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.405s" x="273.96969696969694" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.450s" x="273.96969696969694" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-03-31: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.495s" x="273.96969696969694" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.540s" x="273.96969696969694" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.585s" x="273.96969696969694" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.630s" x="273.96969696969694" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.378s" x="285.0681818181818" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.423s" x="285.0681818181818" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.468s" x="285.0681818181818" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.513s" x="285.0681818181818" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.558s" x="285.0681818181818" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.603s" x="285.0681818181818" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.648s" x="285.0681818181818" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.396s" x="296.16666666666663" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.441s" x="296.16666666666663" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.486s" x="296.16666666666663" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.531s" x="296.16666666666663" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.576s" x="296.16666666666663" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.621s" x="296.16666666666663" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.666s" x="296.16666666666663" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.414s" x="307.2651515151515" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.459s" x="307.2651515151515" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.504s" x="307.2651515151515" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.549s" x="307.2651515151515" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.594s" x="307.2651515151515" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.639s" x="307.2651515151515" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.684s" x="307.2651515151515" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.432s" x="318.3636363636364" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.477s" x="318.3636363636364" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.522s" x="318.3636363636364" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.567s" x="318.3636363636364" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.612s" x="318.3636363636364" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-04-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.657s" x="318.3636363636364" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.702s" x="318.3636363636364" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.450s" x="329.4621212121212" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.495s" x="329.4621212121212" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.540s" x="329.4621212121212" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.585s" x="329.4621212121212" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.630s" x="329.4621212121212" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.675s" x="329.4621212121212" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.720s" x="329.4621212121212" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.468s" x="340.56060606060606" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.513s" x="340.56060606060606" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.558s" x="340.56060606060606" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.603s" x="340.56060606060606" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.648s" x="340.56060606060606" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.693s" x="340.56060606060606" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.738s" x="340.56060606060606" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.486s" x="351.6590909090909" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.531s" x="351.6590909090909" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.576s" x="351.6590909090909" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.621s" x="351.6590909090909" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.666s" x="351.6590909090909" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.711s" x="351.6590909090909" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.756s" x="351.6590909090909" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.504s" x="362.75757575757575" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.549s" x="362.75757575757575" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.594s" x="362.75757575757575" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.639s" x="362.75757575757575" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.684s" x="362.75757575757575" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.729s" x="362.75757575757575" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.774s" x="362.75757575757575" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.522s" x="373.85606060606057" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-05-31: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.567s" x="373.85606060606057" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.612s" x="373.85606060606057" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-06-02: 15 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.657s" x="373.85606060606057" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-06-03: 9 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.702s" x="373.85606060606057" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-06-04: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.747s" x="373.85606060606057" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.792s" x="373.85606060606057" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.540s" x="384.95454545454544" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.585s" x="384.95454545454544" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.630s" x="384.95454545454544" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.675s" x="384.95454545454544" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-06-10: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.720s" x="384.95454545454544" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.765s" x="384.95454545454544" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.810s" x="384.95454545454544" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.558s" x="396.05303030303025" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.603s" x="396.05303030303025" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.648s" x="396.05303030303025" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.693s" x="396.05303030303025" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.738s" x="396.05303030303025" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.783s" x="396.05303030303025" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.828s" x="396.05303030303025" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.576s" x="407.1515151515151" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.621s" x="407.1515151515151" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.666s" x="407.1515151515151" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.711s" x="407.1515151515151" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.756s" x="407.1515151515151" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.801s" x="407.1515151515151" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.846s" x="407.1515151515151" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.594s" x="418.25" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.639s" x="418.25" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.684s" x="418.25" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-06-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.729s" x="418.25" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.774s" x="418.25" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.819s" x="418.25" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.864s" x="418.25" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.612s" x="429.3484848484848" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.657s" x="429.3484848484848" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.702s" x="429.3484848484848" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.747s" x="429.3484848484848" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.792s" x="429.3484848484848" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.837s" x="429.3484848484848" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.882s" x="429.3484848484848" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-11: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.630s" x="440.4469696969697" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.675s" x="440.4469696969697" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.720s" x="440.4469696969697" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.765s" x="440.4469696969697" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.810s" x="440.4469696969697" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.855s" x="440.4469696969697" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-17: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.900s" x="440.4469696969697" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.648s" x="451.5454545454545" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-19: 4 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.693s" x="451.5454545454545" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-07-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.738s" x="451.5454545454545" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-07-21: 8 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.783s" x="451.5454545454545" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#39d353"><title>2026-07-22: 46 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.828s" x="451.5454545454545" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-23: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.873s" x="451.5454545454545" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#26a641"><title>2026-07-24: 19 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.918s" x="451.5454545454545" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-25: 3 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.666s" x="462.6439393939394" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-07-26: 8 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.711s" x="462.6439393939394" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-27: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.756s" x="462.6439393939394" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-28: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.801s" x="462.6439393939394" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-07-29: 11 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.846s" x="462.6439393939394" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-07-30: 13 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.891s" x="462.6439393939394" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-07-31: 3 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.936s" x="462.6439393939394" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-08-01: 3 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.684s" x="473.7424242424242" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-08-02: 7 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.729s" x="473.7424242424242" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-08-03: 5 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.774s" x="473.7424242424242" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-08-04: 4 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.819s" x="473.7424242424242" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-08-05: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.864s" x="473.7424242424242" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.909s" x="473.7424242424242" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-08-07: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.954s" x="473.7424242424242" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-08-08: 3 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.702s" x="484.84090909090907" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.747s" x="484.84090909090907" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.792s" x="484.84090909090907" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.837s" x="484.84090909090907" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.882s" x="484.84090909090907" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.927s" x="484.84090909090907" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.972s" x="484.84090909090907" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.720s" x="495.9393939393939" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.765s" x="495.9393939393939" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.810s" x="495.9393939393939" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.855s" x="495.9393939393939" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.900s" x="495.9393939393939" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.945s" x="495.9393939393939" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.990s" x="495.9393939393939" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.738s" x="507.03787878787875" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.783s" x="507.03787878787875" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.828s" x="507.03787878787875" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.873s" x="507.03787878787875" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-26: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.918s" x="507.03787878787875" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.963s" x="507.03787878787875" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.008s" x="507.03787878787875" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.756s" x="518.1363636363636" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-08-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.801s" x="518.1363636363636" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#26a641"><title>2026-08-31: 19 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.846s" x="518.1363636363636" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-09-01: 6 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.891s" x="518.1363636363636" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#26a641"><title>2026-09-02: 25 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.936s" x="518.1363636363636" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-09-03: 15 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.981s" x="518.1363636363636" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#26a641"><title>2026-09-04: 24 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.026s" x="518.1363636363636" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-09-05: 7 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.774s" x="529.2348484848485" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#26a641"><title>2026-09-06: 22 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.819s" x="529.2348484848485" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-09-07: 3 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.864s" x="529.2348484848485" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.909s" x="529.2348484848485" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.954s" x="529.2348484848485" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.999s" x="529.2348484848485" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-09-11: 5 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.044s" x="529.2348484848485" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-12: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.792s" x="540.3333333333333" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-13: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.837s" x="540.3333333333333" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-14: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.882s" x="540.3333333333333" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-09-15: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.927s" x="540.3333333333333" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.972s" x="540.3333333333333" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.017s" x="540.3333333333333" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-18: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.062s" x="540.3333333333333" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.810s" x="551.4318181818181" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.855s" x="551.4318181818181" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.900s" x="551.4318181818181" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.945s" x="551.4318181818181" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.990s" x="551.4318181818181" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.035s" x="551.4318181818181" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#39d353"><title>2026-09-25: 34 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.080s" x="551.4318181818181" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-09-26: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.828s" x="562.530303030303" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-27: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.873s" x="562.530303030303" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-28: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.918s" x="562.530303030303" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-29: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.963s" x="562.530303030303" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-09-30: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.008s" x="562.530303030303" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-01: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.053s" x="562.530303030303" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.098s" x="562.530303030303" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.846s" x="573.6287878787879" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-10-04: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.891s" x="573.6287878787879" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.936s" x="573.6287878787879" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-06: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.981s" x="573.6287878787879" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-07: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.026s" x="573.6287878787879" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.071s" x="573.6287878787879" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-09: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.116s" x="573.6287878787879" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-10: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.864s" x="584.7272727272727" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-11: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.909s" x="584.7272727272727" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-10-12: 4 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.954s" x="584.7272727272727" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-10-13: 7 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.999s" x="584.7272727272727" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-10-14: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.044s" x="584.7272727272727" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-15: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.089s" x="584.7272727272727" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-16: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.134s" x="584.7272727272727" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-17: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.882s" x="595.8257575757575" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-10-18: 1 contribution</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.927s" x="595.8257575757575" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-19: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.972s" x="595.8257575757575" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-20: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.017s" x="595.8257575757575" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-21: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.062s" x="595.8257575757575" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-22: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.107s" x="595.8257575757575" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-23: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.152s" x="595.8257575757575" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-24: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.900s" x="606.9242424242424" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-25: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.945s" x="606.9242424242424" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#26a641"><title>2026-10-26: 26 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.990s" x="606.9242424242424" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#69f0a0"><title>2026-10-27: 70 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.035s" x="606.9242424242424" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-10-28: 8 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.080s" x="606.9242424242424" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-10-29: 5 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.125s" x="606.9242424242424" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-10-30: 6 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.170s" x="606.9242424242424" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-10-31: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.918s" x="618.0227272727273" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-11-01: 4 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.963s" x="618.0227272727273" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-11-02: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.008s" x="618.0227272727273" y="72.19696969696969" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-11-03: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.053s" x="618.0227272727273" y="83.29545454545455" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-11-04: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.098s" x="618.0227272727273" y="94.39393939393939" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-11-05: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.143s" x="618.0227272727273" y="105.49242424242424" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-11-06: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.188s" x="618.0227272727273" y="116.5909090909091" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#0e4429"><title>2026-11-07: 3 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.936s" x="629.1212121212121" y="50" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#161b22"><title>2026-11-08: 0 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.981s" x="629.1212121212121" y="61.098484848484844" width="8.878787878787879" height="8.878787878787879" rx="2.5" fill="#006d32"><title>2026-11-09: 8 contributions</title></rect>
+<text x="533.6287878787879" y="140.8" fill="#7d8590" font-size="10" text-anchor="end">Less</text>
+<rect x="539.6287878787879" y="133.68939393939394" width="8.878787878787879" height="8.878787878787879" rx="2.2" fill="#161b22"/>
+<rect x="550.7272727272727" y="133.68939393939394" width="8.878787878787879" height="8.878787878787879" rx="2.2" fill="#0e4429"/>
+<rect x="561.8257575757576" y="133.68939393939394" width="8.878787878787879" height="8.878787878787879" rx="2.2" fill="#006d32"/>
+<rect x="572.9242424242425" y="133.68939393939394" width="8.878787878787879" height="8.878787878787879" rx="2.2" fill="#26a641"/>
+<rect x="584.0227272727274" y="133.68939393939394" width="8.878787878787879" height="8.878787878787879" rx="2.2" fill="#39d353"/>
+<rect x="595.1212121212122" y="133.68939393939394" width="8.878787878787879" height="8.878787878787879" rx="2.2" fill="#69f0a0"/>
+<text x="638" y="140.8" fill="#7d8590" font-size="10" text-anchor="end">More</text>
+<line x1="0" y1="156.5681818181818" x2="660" y2="156.5681818181818" stroke="rgba(255,255,255,0.1)" stroke-opacity="0.25"/>
+<text x="22" y="180.5681818181818" font-size="13" fill="#39d353"><tspan font-weight="700">486</tspan><tspan fill="#7d8590"> contributions in the last year</tspan></text>
+<text x="638" y="180.5681818181818" font-size="12" fill="#7d8590" text-anchor="end">Nov 9, 2025 &#8594; Nov 9, 2026</text>
+<text x="22" y="204.5681818181818" font-size="13" fill="#7d8590">current streak <tspan fill="#ffa657" font-weight="700">1 days</tspan><tspan fill="#7d8590">   &#183;   longest </tspan><tspan fill="#ffa657" font-weight="700">16 days</tspan></text>
+<text x="638" y="204.5681818181818" font-size="12" fill="#7d8590" text-anchor="end">best day <tspan fill="#f2cc60" font-weight="700">70</tspan> on Oct 27, 2026</text>
+</svg>
+  
+    </g>
+  
+
+    <g transform="translate(25, 24)" id="widget-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92">
+
+      
+        <style>
+          @keyframes svg-fade-in-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; }
+            to { opacity: 1; }
+          }
+          @keyframes svg-slide-up-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-down-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: translateY(-8px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes svg-slide-left-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: translateX(12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-slide-right-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: translateX(-12px); }
+            to { opacity: 1; transform: translateX(0); }
+          }
+          @keyframes svg-zoom-in-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-zoom-out-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: scale(1.1); }
+            to { opacity: 1; transform: scale(1); }
+          }
+          @keyframes svg-flip-x-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+          }
+          @keyframes svg-flip-y-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            from { opacity: 0; transform: perspective(400px) rotateY(90deg); }
+            to { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+          }
+          @keyframes svg-glitch-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            0% { opacity: 0; transform: skewX(10deg); }
+            20% { opacity: 0.8; transform: skewX(-10deg); }
+            40% { opacity: 0.5; transform: skewX(5deg); }
+            60% { opacity: 0.9; transform: skewX(0deg); }
+            100% { opacity: 1; }
+          }
+          @keyframes svg-scan-lines-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1 {
+            0% { opacity: 0; clip-path: inset(100% 0 0 0); }
+            100% { opacity: 1; clip-path: inset(0 0 0 0); }
+          }
+
+          #widget-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92 .anim-target {
+            animation-name: svg-fade-in-widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92-1;
+            animation-duration: 1500ms;
+            animation-timing-function: ease-out;
+            animation-fill-mode: both;
+          }
+        </style>
+      
+      
+      <rect class="" x="0" y="0" width="750" height="90" fill="#0d1117" stroke="#212830" stroke-width="0" rx="8" />
+      
+      <text x="6" y="14" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c5ff4a">+</text>
+      <text x="738" y="14" font-family="'JetBrains Mono', monospace" font-size="10" fill="#c5ff4a">+</text>
+    
+      
+    <text class="anim-target" x="24" y="44" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 0ms; transform-origin: center;">跨越星轨的客</text>
+    <text class="anim-target" x="24" y="72" font-family="'JetBrains Mono', monospace" font-size="14" fill="#c5ff4a" style="animation-delay: 300ms; transform-origin: center;">@qzh200</text>
+    
+  
+  
+    </g>
   
 </svg>
