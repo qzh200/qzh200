@@ -320,7 +320,7 @@
     <g class="row" style="animation-delay:150ms">
       <svg x="25" y="85" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5h-3.32zM8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
       <text x="50" y="97.5" class="label">Total Commits (2026):</text>
-      <text x="350" y="97.5" class="value" text-anchor="end">322</text>
+      <text x="350" y="97.5" class="value" text-anchor="end">321</text>
       
     </g>
     <g class="row" style="animation-delay:300ms">
@@ -338,7 +338,7 @@
     <g class="row" style="animation-delay:600ms">
       <svg x="25" y="160" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm.5 4.75v3.44l2.78 1.61a.75.75 0 1 1-.75 1.3l-3.16-1.83A.75.75 0 0 1 7 8.69V4.75a.75.75 0 0 1 1.5 0z"/></svg>
       <text x="50" y="172.5" class="label">Estimated Coding Hours:</text>
-      <text x="350" y="172.5" class="value" text-anchor="end">166.7h</text>
+      <text x="350" y="172.5" class="value" text-anchor="end">166.2h</text>
       
     </g>
     <g class="row" style="animation-delay:750ms">
@@ -350,16 +350,16 @@
     <g class="row" style="animation-delay:900ms">
       <svg x="25" y="210" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M4.75 0a.75.75 0 0 1 .75.75V2h5V.75a.75.75 0 0 1 1.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 13.25 16H2.75A1.75 1.75 0 0 1 1 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 0 1 4.75 0zm0 3.5h-.75a.25.25 0 0 0-.25.25V6h8.5V3.75a.25.25 0 0 0-.25-.25h-.75v.75a.75.75 0 0 1-1.5 0V3.5h-5v.75a.75.75 0 0 1-1.5 0zm-1.5 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25V7.5z"/></svg>
       <text x="50" y="222.5" class="label">Commits This Week:</text>
-      <text x="350" y="222.5" class="value" text-anchor="end">25</text>
+      <text x="350" y="222.5" class="value" text-anchor="end">24</text>
       
     </g>
     <g class="row" style="animation-delay:1050ms">
       <svg x="25" y="235" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M.75 8a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0v-5.5A.75.75 0 0 1 .75 8zm4-4a.75.75 0 0 1 .75.75v9.5a.75.75 0 0 1-1.5 0v-9.5A.75.75 0 0 1 4.75 4zM8.75 0a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-1.5 0V.75a.75.75 0 0 1 .75-.75zm4 2a.75.75 0 0 1 .75.75v11.5a.75.75 0 0 1-1.5 0V2.75a.75.75 0 0 1 .75-.75z"/></svg>
       <text x="50" y="247.5" class="label">Weekly Trend:</text>
-      <text x="350" y="247.5" class="value" text-anchor="end">25 commits</text>
+      <text x="350" y="247.5" class="value" text-anchor="end">24 commits</text>
       <g transform="translate(222, 237)">
           <path d="M 0 4 L 4 10 L 8 4 L 5 4 L 5 0 L 3 0 L 3 4 Z" fill="#f85149"/>
-          <text x="12" y="9" fill="#f85149" class="trend-text">-73%</text>
+          <text x="12" y="9" fill="#f85149" class="trend-text">-74%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:1200ms">
@@ -383,7 +383,7 @@
     <g class="row" style="animation-delay:1650ms">
       <svg x="25" y="335" width="16" height="16" viewBox="0 0 16 16" fill="#58a6ff"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042z"/></svg>
       <text x="50" y="347.5" class="label">Contributions This Year:</text>
-      <text x="350" y="347.5" class="value" text-anchor="end">498</text>
+      <text x="350" y="347.5" class="value" text-anchor="end">497</text>
       
     </g>
     <g class="row" style="animation-delay:1800ms">
@@ -807,7 +807,7 @@
 <rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.143s" x="704.9545454545455" y="114.01515151515152" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#0e4429"><title>2026-11-06: 2 contributions</title></rect>
 <rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.188s" x="704.9545454545455" y="126.81818181818181" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#0e4429"><title>2026-11-07: 3 contributions</title></rect>
 <rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.936s" x="717.7575757575758" y="50" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#161b22"><title>2026-11-08: 0 contributions</title></rect>
-<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.981s" x="717.7575757575758" y="62.803030303030305" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#26a641"><title>2026-11-09: 20 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.981s" x="717.7575757575758" y="62.803030303030305" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#26a641"><title>2026-11-09: 21 contributions</title></rect>
 <text x="613.7424242424242" y="153.8" fill="#7d8590" font-size="10" text-anchor="end">Less</text>
 <rect x="619.7424242424242" y="145.62121212121212" width="10.242424242424242" height="10.242424242424242" rx="2.2" fill="#161b22"/>
 <rect x="632.5454545454545" y="145.62121212121212" width="10.242424242424242" height="10.242424242424242" rx="2.2" fill="#0e4429"/>
@@ -817,7 +817,7 @@
 <rect x="683.7575757575755" y="145.62121212121212" width="10.242424242424242" height="10.242424242424242" rx="2.2" fill="#69f0a0"/>
 <text x="728" y="153.8" fill="#7d8590" font-size="10" text-anchor="end">More</text>
 <line x1="0" y1="169.86363636363637" x2="750" y2="169.86363636363637" stroke="rgba(255,255,255,0.1)" stroke-opacity="0.25"/>
-<text x="22" y="193.86363636363637" font-size="13" fill="#39d353"><tspan font-weight="700">498</tspan><tspan fill="#7d8590"> contributions in the last year</tspan></text>
+<text x="22" y="193.86363636363637" font-size="13" fill="#39d353"><tspan font-weight="700">499</tspan><tspan fill="#7d8590"> contributions in the last year</tspan></text>
 <text x="728" y="193.86363636363637" font-size="12" fill="#7d8590" text-anchor="end">Nov 9, 2025 &#8594; Nov 9, 2026</text>
 <text x="22" y="217.86363636363637" font-size="13" fill="#7d8590">current streak <tspan fill="#ffa657" font-weight="700">1 days</tspan><tspan fill="#7d8590">   &#183;   longest </tspan><tspan fill="#ffa657" font-weight="700">16 days</tspan></text>
 <text x="728" y="217.86363636363637" font-size="12" fill="#7d8590" text-anchor="end">best day <tspan fill="#f2cc60" font-weight="700">70</tspan> on Oct 27, 2026</text>
