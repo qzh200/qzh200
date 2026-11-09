@@ -100,17 +100,29 @@
         "showTitle": false,
         "hideDecorations": false,
         "languages": [
-          "Go",
-          "Astro",
-          "Vue",
-          "Shell",
-          "PLpgSQL",
           "Python",
-          "Batchfile",
-          "TypeScript"
+          "Go",
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "C",
+          "C++",
+          "PHP",
+          "HTML5"
         ],
         "animationType": "slide-right",
-        "animationPreviewKey": 3
+        "animationPreviewKey": 3,
+        "workflow": [
+          "VS Code",
+          "Git",
+          "Docker",
+          "Linux",
+          "Figma",
+          "GitHub",
+          "React",
+          "Vue.js",
+          "Astro"
+        ]
       },
       "locked": false,
       "visible": true,
@@ -195,7 +207,7 @@
     }
   ],
   "globalStyles": {
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#0d1117",
     "textColor": "#f4f4f5",
     "accentColor": "#0d1117",
     "borderColor": "#27272a",
@@ -209,7 +221,7 @@
   "templateId": "bento_grid",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1794198580381_lpghd",
-    "updatedAt": "2026-11-09T04:29:42.957Z"
+    "revision": "rev_1794199785033_d3nx9",
+    "updatedAt": "2026-11-09T04:49:48.681Z"
   }
 }
