@@ -44,7 +44,8 @@
         "sourceType": "url",
         "animationType": "typewriter",
         "hideDecorations": true,
-        "animationPreviewKey": 1
+        "animationPreviewKey": 1,
+        "backgroundColor": "transparent"
       },
       "locked": false,
       "zIndex": 5,
@@ -71,7 +72,8 @@
         "sourceType": "url",
         "animationType": "typewriter",
         "hideDecorations": true,
-        "animationPreviewKey": 12
+        "animationPreviewKey": 12,
+        "backgroundColor": "transparent"
       },
       "locked": false,
       "zIndex": 6,
@@ -82,36 +84,6 @@
       },
       "widgetId": "custom-image",
       "instanceId": "widget_ad83795b-61c1-4462-95a8-826a1a337c02"
-    },
-    {
-      "name": "Custom-image Widget",
-      "size": {
-        "width": 800,
-        "height": 400
-      },
-      "config": {
-        "src": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
-        "url": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
-        "mode": "contain",
-        "imageUrl": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
-        "showTitle": false,
-        "hideBorder": true,
-        "sourceType": "url",
-        "animationType": "typewriter",
-        "backgroundColor": "transparent",
-        "hideDecorations": true,
-        "lockAspectRatio": false,
-        "animationPreviewKey": 17
-      },
-      "locked": false,
-      "zIndex": 7,
-      "visible": true,
-      "position": {
-        "x": 0,
-        "y": 548
-      },
-      "widgetId": "custom-image",
-      "instanceId": "widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce"
     },
     {
       "name": "Ghstats Widget",
@@ -165,7 +137,7 @@
       "visible": true,
       "position": {
         "x": 25,
-        "y": 964
+        "y": 908
       },
       "widgetId": "asciiprofile-heatmap",
       "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252"
@@ -201,7 +173,7 @@
       "name": "Footer Widget",
       "position": {
         "x": 25,
-        "y": 1228
+        "y": 1180
       },
       "size": {
         "width": 750,
@@ -209,6 +181,33 @@
       },
       "config": {
         "backgroundColor": "#0d1117"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    },
+    {
+      "instanceId": "widget_23c078df-ceda-41a0-b9a6-5105475c5189",
+      "widgetId": "custom-image",
+      "name": "Custom-image Widget",
+      "position": {
+        "x": 0,
+        "y": 556
+      },
+      "size": {
+        "width": 800,
+        "height": 336
+      },
+      "config": {
+        "sourceType": "url",
+        "imageUrl": "https://raw.githubusercontent.com/qzh200/qzh200/refs/heads/main/assets/tokscale.svg",
+        "src": "https://raw.githubusercontent.com/qzh200/qzh200/refs/heads/main/assets/tokscale.svg",
+        "url": "https://raw.githubusercontent.com/qzh200/qzh200/refs/heads/main/assets/tokscale.svg",
+        "hideDecorations": true,
+        "hideBorder": true,
+        "showTitle": false,
+        "backgroundColor": "transparent",
+        "mode": "contain"
       },
       "locked": false,
       "visible": true,
@@ -229,7 +228,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1794211323454_3c5es",
-    "updatedAt": "2026-11-09T08:02:05.731Z"
+    "revision": "rev_1794218015707_z3quj",
+    "updatedAt": "2026-11-09T09:53:38.100Z"
   }
 }
