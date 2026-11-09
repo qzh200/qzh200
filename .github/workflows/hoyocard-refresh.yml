@@ -20,31 +20,27 @@ jobs:
         with:
           ref: main
 
-      - name: Download HoyoCard archives
+      - name: Download HoyoCard SVG
         shell: bash
         run: |
           set -euo pipefail
 
-          mkdir -p assets /tmp/hoyocard/gs /tmp/hoyocard/sr
+          mkdir -p assets /tmp/hoyocard
 
           curl -fLsS --retry 3 -A "Mozilla/5.0" \
             "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png" \
-            -o /tmp/hoyocard/gs.zip
+            -o /tmp/hoyocard/gs.svg
 
           curl -fLsS --retry 3 -A "Mozilla/5.0" \
             "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png" \
-            -o /tmp/hoyocard/sr.zip
+            -o /tmp/hoyocard/sr.svg
 
           for type in gs sr; do
-            zip="/tmp/hoyocard/${type}.zip"
-            member="$(unzip -Z1 "$zip" | grep -E '\.(png|svg)$' | head -n 1)"
-
-            test -n "$member"
-
-            unzip -p "$zip" "$member" \
-              > "/tmp/hoyocard/${type}.svg"
-
-            grep -q '<svg' "/tmp/hoyocard/${type}.svg"
+            if ! grep -Eiq '<svg([[:space:]>])' "/tmp/hoyocard/${type}.svg"; then
+              echo "Invalid SVG response: ${type}"
+              head -c 500 "/tmp/hoyocard/${type}.svg"
+              exit 1
+            fi
           done
 
       - name: Install Chromium
@@ -62,21 +58,28 @@ jobs:
           import { resolve } from 'node:path';
           import { pathToFileURL } from 'node:url';
 
-          const browser = await chromium.launch({ headless: true });
+          const browser = await chromium.launch({
+            headless: true
+          });
 
           for (const type of ['gs', 'sr']) {
             const page = await browser.newPage({
-              viewport: { width: 500, height: 165 },
+              viewport: {
+                width: 500,
+                height: 165
+              },
               deviceScaleFactor: 2
             });
 
             await page.goto(
-              pathToFileURL(resolve(`/tmp/hoyocard/${type}.svg`)).href,
+              pathToFileURL(
+                resolve(`/tmp/hoyocard/${type}.svg`)
+              ).href,
               { waitUntil: 'load' }
             );
 
             await page.screenshot({
-              path: `assets/hoyocard-${type}.png`,
+              path: `${process.env.GITHUB_WORKSPACE}/assets/hoyocard-${type}.png`,
               fullPage: true
             });
 
@@ -87,6 +90,14 @@ jobs:
           EOF
 
           node /tmp/hoyocard-render/render.mjs
+
+      - name: Verify PNG files
+        run: |
+          file assets/hoyocard-gs.png
+          file assets/hoyocard-sr.png
+
+          test -s assets/hoyocard-gs.png
+          test -s assets/hoyocard-sr.png
 
       - name: Commit refreshed images
         id: commit
@@ -108,4 +119,5 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run gitascii.yml --ref main
+        run: |
+          gh workflow run gitascii.yml --ref main
