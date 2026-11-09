@@ -160,7 +160,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 216.05990117985866;
+        stroke-dashoffset: 216.20884887721252;
       }
     }
   
@@ -187,7 +187,7 @@
 </style>
 <svg fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId" x="16" y="16" width="358" height="178" preserveAspectRatio="xMinYMin meet" viewBox="0 0 467 195">
         <title id="titleId">&#36328;&#36234;&#26143;&#36712;&#30340;&#23458;'s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits in 2026 : 308, Total PRs: 3, Total Issues: 3, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits in 2026 : 305, Total PRs: 3, Total Issues: 3, Contributed to (last year): 2</desc>
         
 
         
@@ -266,7 +266,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >308</text>
+      >305</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
