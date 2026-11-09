@@ -6,5 +6,10 @@
 </picture>
 
 <!-- GITASCII:TELEMETRY:START - Measures badge fetches (usually GitHub Camo refreshes), not exact human views -->
-<img alt="GitAscii badge fetch analytics" src="https://gitascii.com/api/badge/qzh200?slug=default&amp;style=transparent" width="1" height="1">
+<p align="center">
+  <a href="https://gitascii.com">
+    <img alt="GitAscii badge fetch analytics" src="https://gitascii.com/api/badge/qzh200?slug=two" width="100%">
+  </a>
+</p>
 <!-- GITASCII:TELEMETRY:END -->
+<!-- GITASCII:two:END -->
