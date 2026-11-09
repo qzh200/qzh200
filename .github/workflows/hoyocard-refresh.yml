@@ -51,6 +51,7 @@ jobs:
           npm install playwright
           npx playwright install --with-deps chromium
 
+     
       - name: Convert SVG to PNG
         run: |
           cat > /tmp/hoyocard-render/render.mjs <<'EOF'
@@ -59,37 +60,54 @@ jobs:
           import { pathToFileURL } from 'node:url';
 
           const browser = await chromium.launch({
-            headless: true
+            headless: true,
+            args: ['--disable-dev-shm-usage']
           });
 
-          for (const type of ['gs', 'sr']) {
-            const page = await browser.newPage({
-              viewport: {
-                width: 500,
-                height: 165
-              },
-              deviceScaleFactor: 2
-            });
+          try {
+            for (const type of ['gs', 'sr']) {
+              const page = await browser.newPage({
+                viewport: {
+                  width: 500,
+                  height: 165
+                },
+                deviceScaleFactor: 2
+              });
 
-            await page.goto(
-              pathToFileURL(
-                resolve(`/tmp/hoyocard/${type}.svg`)
-              ).href,
-              { waitUntil: 'load' }
-            );
+              page.setDefaultNavigationTimeout(60000);
 
-            await page.screenshot({
-              path: `${process.env.GITHUB_WORKSPACE}/assets/hoyocard-${type}.png`,
-              fullPage: true
-            });
+              await page.goto(
+                pathToFileURL(
+                  resolve(`/tmp/hoyocard/${type}.svg`)
+                ).href,
+                { waitUntil: 'load', timeout: 60000 }
+              );
 
-            await page.close();
+              // 等待 SVG 内容和字体就绪
+              await page.evaluate(async () => {
+                await document.fonts.ready;
+              });
+
+              // 禁止动画，避免截图过程持续渲染
+              await page.screenshot({
+                path: `${process.env.GITHUB_WORKSPACE}/assets/hoyocard-${type}.png`,
+                type: 'png',
+                animations: 'disabled',
+                fullPage: false,
+                timeout: 120000
+              });
+
+              console.log(`Successfully converted: ${type}`);
+
+              await page.close();
+            }
+          } finally {
+            await browser.close();
           }
-
-          await browser.close();
           EOF
 
           node /tmp/hoyocard-render/render.mjs
+
 
       - name: Verify PNG files
         run: |
