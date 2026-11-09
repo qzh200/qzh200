@@ -1,56 +1,46 @@
 {
+  "username": "qzh200",
   "widgets": [
     {
+      "instanceId": "widget_4a26f20a-b69d-406a-af6d-fe1af7611f39",
+      "widgetId": "stats",
       "name": "Stats Widget",
+      "position": {
+        "x": 25,
+        "y": 98
+      },
       "size": {
         "width": 750,
         "height": 120
       },
       "config": {
-        "showTitle": false,
-        "textColor": "#0d1117",
-        "hideBorder": true,
-        "accentColor": "#ffffff",
-        "borderColor": "#212830",
-        "animationType": "fade-in",
         "backgroundColor": "#0d1117",
         "hideDecorations": true,
+        "textColor": "#0d1117",
+        "borderColor": "#212830",
+        "accentColor": "#ffffff",
+        "hideBorder": true,
+        "showTitle": false,
+        "animationType": "fade-in",
         "animationPreviewKey": 1
       },
       "locked": false,
-      "zIndex": 2,
       "visible": true,
-      "position": {
-        "x": 25,
-        "y": 98
-      },
-      "widgetId": "stats",
-      "instanceId": "widget_4a26f20a-b69d-406a-af6d-fe1af7611f39"
+      "zIndex": 2
     },
     {
+      "instanceId": "widget_a6eb0012-2b60-4e69-a67e-1094416fe72f",
+      "widgetId": "social-media",
       "name": "Social-media Widget",
+      "position": {
+        "x": 32.5,
+        "y": 1132
+      },
       "size": {
         "width": 735,
         "height": 120
       },
       "config": {
-        "showTitle": true,
-        "textColor": "github-auto",
-        "badgeStyle": "for-the-badge",
-        "hideBorder": true,
-        "socialUrls": {
-          "email": "mailto:2563070658@qq.com",
-          "steam": "https://steamcommunity.com/profiles/76561199468675099",
-          "github": "https://github.com/qzh200",
-          "twitter": "https://x.com/yvone4247",
-          "website": "https://www.facebook.com/profile.php?id=61591549614343",
-          "youtube": "https://www.youtube.com/@%E6%B1%90%E8%A1%8C",
-          "instagram": "https://www.instagram.com/qzh_2006/"
-        },
-        "customTitle": "connect me",
-        "animationType": "slide-up",
-        "backgroundColor": "#0d1117",
-        "hideDecorations": false,
         "selectedSocials": [
           "github",
           "twitter",
@@ -58,137 +48,156 @@
           "telegram",
           "steam"
         ],
-        "animationPreviewKey": 12
+        "socialUrls": {
+          "github": "https://github.com/qzh200",
+          "twitter": "https://x.com/yvone4247",
+          "website": "https://www.facebook.com/profile.php?id=61591549614343",
+          "instagram": "https://www.instagram.com/qzh_2006/",
+          "email": "mailto:2563070658@qq.com",
+          "youtube": "https://www.youtube.com/@%E6%B1%90%E8%A1%8C",
+          "steam": "https://steamcommunity.com/profiles/76561199468675099"
+        },
+        "backgroundColor": "#0d1117",
+        "showTitle": true,
+        "hideDecorations": false,
+        "badgeStyle": "for-the-badge",
+        "hideBorder": true,
+        "animationType": "slide-up",
+        "animationPreviewKey": 12,
+        "textColor": "github-auto",
+        "customTitle": "connect me"
       },
       "locked": false,
-      "zIndex": 4,
       "visible": true,
-      "position": {
-        "x": 32.5,
-        "y": 1140
-      },
-      "widgetId": "social-media",
-      "instanceId": "widget_a6eb0012-2b60-4e69-a67e-1094416fe72f"
+      "zIndex": 4
     },
     {
+      "instanceId": "widget_9afbaa5e-c890-4b51-b20c-95067b4924b7",
+      "widgetId": "custom-image",
       "name": "Custom-image Widget",
+      "position": {
+        "x": 21.5,
+        "y": 218
+      },
       "size": {
         "width": 385,
         "height": 165
       },
       "config": {
+        "sourceType": "url",
+        "imageUrl": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
         "src": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
         "url": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
-        "imageUrl": "https://hoyocard.qhy04.com/gs/detail/rand/422551225.png",
-        "showTitle": false,
         "hideBorder": true,
-        "sourceType": "url",
-        "animationType": "typewriter",
         "hideDecorations": true,
+        "showTitle": false,
+        "animationType": "typewriter",
         "animationPreviewKey": 1
       },
       "locked": false,
-      "zIndex": 5,
       "visible": true,
-      "position": {
-        "x": 21.5,
-        "y": 218
-      },
-      "widgetId": "custom-image",
-      "instanceId": "widget_9afbaa5e-c890-4b51-b20c-95067b4924b7"
+      "zIndex": 5
     },
     {
+      "instanceId": "widget_ad83795b-61c1-4462-95a8-826a1a337c02",
+      "widgetId": "custom-image",
       "name": "Custom-image Widget",
+      "position": {
+        "x": 18,
+        "y": 383
+      },
       "size": {
         "width": 392,
         "height": 165
       },
       "config": {
+        "sourceType": "url",
+        "imageUrl": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
         "src": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
         "url": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
-        "imageUrl": "https://hoyocard.qhy04.com/sr/detail/rand/422551225.png",
-        "showTitle": false,
         "hideBorder": true,
-        "sourceType": "url",
-        "animationType": "typewriter",
         "hideDecorations": true,
+        "showTitle": false,
+        "animationType": "typewriter",
         "animationPreviewKey": 12
       },
       "locked": false,
-      "zIndex": 6,
       "visible": true,
-      "position": {
-        "x": 18,
-        "y": 383
-      },
-      "widgetId": "custom-image",
-      "instanceId": "widget_ad83795b-61c1-4462-95a8-826a1a337c02"
+      "zIndex": 6
     },
     {
+      "instanceId": "widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce",
+      "widgetId": "custom-image",
       "name": "Custom-image Widget",
+      "position": {
+        "x": 0,
+        "y": 532
+      },
       "size": {
         "width": 800,
         "height": 336
       },
       "config": {
+        "sourceType": "url",
+        "imageUrl": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
         "src": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
         "url": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
         "mode": "contain",
-        "imageUrl": "https://tokscale.ai/api/embed/qzh200/svg?cost=full&graph=1&rank=total&tokens=full",
         "showTitle": false,
-        "hideBorder": true,
-        "sourceType": "url",
-        "animationType": "typewriter",
-        "backgroundColor": "transparent",
-        "hideDecorations": true,
         "lockAspectRatio": false,
-        "animationPreviewKey": 17
+        "hideDecorations": true,
+        "hideBorder": true,
+        "animationType": "typewriter",
+        "animationPreviewKey": 17,
+        "backgroundColor": "transparent"
       },
       "locked": false,
-      "zIndex": 7,
       "visible": true,
-      "position": {
-        "x": 0,
-        "y": 532
-      },
-      "widgetId": "custom-image",
-      "instanceId": "widget_70537c8e-4e1f-40bf-9c89-cd2c660489ce"
+      "zIndex": 7
     },
     {
+      "instanceId": "widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298",
+      "widgetId": "ghstats",
       "name": "Ghstats Widget",
+      "position": {
+        "x": 410,
+        "y": 218
+      },
       "size": {
         "width": 390,
         "height": 330
       },
       "config": {
+        "showTitle": false,
+        "hideDecorations": true,
+        "hideBorder": true,
         "theme": "default",
+        "showIcons": true,
         "showRing": true,
         "hideTitle": false,
-        "showIcons": true,
-        "showTitle": false,
-        "hideBorder": true,
-        "animationType": "slide-down",
         "backgroundColor": "transparent",
-        "hideDecorations": true,
+        "animationType": "slide-down",
         "animationPreviewKey": 3
       },
       "locked": false,
-      "zIndex": 8,
       "visible": true,
-      "position": {
-        "x": 410,
-        "y": 218
-      },
-      "widgetId": "ghstats",
-      "instanceId": "widget_aa97f7b4-d233-4ab3-938d-b7aa113ea298"
+      "zIndex": 8
     },
     {
+      "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252",
+      "widgetId": "asciiprofile-heatmap",
       "name": "Asciiprofile-heatmap Widget",
+      "position": {
+        "x": 70,
+        "y": 876
+      },
       "size": {
         "width": 660,
         "height": 240
       },
       "config": {
+        "accentColor": "#ffa657",
+        "paletteIndex": 0,
         "palette": [
           "#161b22",
           "#0e4429",
@@ -197,54 +206,38 @@
           "#39d353",
           "#69f0a0"
         ],
-        "accentColor": "#ffa657",
-        "paletteIndex": 0,
         "backgroundColor": "#0d1117"
       },
       "locked": false,
-      "zIndex": 8,
       "visible": true,
-      "position": {
-        "x": 70,
-        "y": 876
-      },
-      "widgetId": "asciiprofile-heatmap",
-      "instanceId": "widget_73efed31-4aa9-44fe-ae19-c382dc8a2252"
+      "zIndex": 8
     },
     {
+      "instanceId": "widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92",
+      "widgetId": "header",
       "name": "Header Widget",
+      "position": {
+        "x": 25,
+        "y": 24
+      },
       "size": {
         "width": 750,
         "height": 90
       },
       "config": {
         "showTitle": false,
+        "hideDecorations": false,
         "hideBorder": true,
         "borderColor": "#212830",
-        "animationType": "fade-in",
         "backgroundColor": "#0d1117",
-        "hideDecorations": false,
+        "animationType": "fade-in",
         "animationPreviewKey": 1
       },
       "locked": false,
-      "zIndex": 8,
       "visible": true,
-      "position": {
-        "x": 25,
-        "y": 24
-      },
-      "widgetId": "header",
-      "instanceId": "widget_47cafa5b-7e0a-46b0-b993-6ea386e43d92"
+      "zIndex": 8
     }
   ],
-  "metadata": {
-    "revision": "rev_1794204797153_backup",
-    "updatedAt": "2026-11-09T06:13:19.138Z"
-  },
-  "username": "qzh200",
-  "templateId": "terminal",
-  "profileName": "第二版",
-  "profileSlug": "two",
   "globalStyles": {
     "padding": 16,
     "textColor": "#ffffff",
@@ -255,5 +248,11 @@
     "borderRadius": 8,
     "backgroundColor": "transparent",
     "transparentBackground": false
+  },
+  "templateId": "terminal",
+  "profileSlug": "two",
+  "metadata": {
+    "revision": "rev_1794204890551_nbnxy",
+    "updatedAt": "2026-11-09T06:14:52.622Z"
   }
 }

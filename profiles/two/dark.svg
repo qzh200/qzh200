@@ -1,5 +1,5 @@
 
-<svg width="800" height="1276" viewBox="0 0 800 1276" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="1268" viewBox="0 0 800 1268" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Teko:wght@500;600;700&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Fira+Code:wght@300..700&amp;family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;family=Outfit:wght@100..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap');
 
@@ -29,7 +29,7 @@
     }
   </style>
 
-  <rect class="gitascii-canvas-bg" width="800" height="1276" fill="#0d1117" rx="8" />
+  <rect class="gitascii-canvas-bg" width="800" height="1268" fill="#0d1117" rx="8" />
 
   
     <g transform="translate(25, 98)" id="widget-widget_4a26f20a-b69d-406a-af6d-fe1af7611f39">
@@ -103,7 +103,7 @@
           <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 92ms; transform-origin: center;">STARS</text>
         </g>
         <g transform="translate(141, 48)">
-          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 138ms; transform-origin: center;">13</text>
+          <text class="anim-target" x="0" y="28" font-family="PT Serif" font-size="28" font-weight="300" fill="#ffffff" style="animation-delay: 138ms; transform-origin: center;">12</text>
           <text class="anim-target" x="0" y="44" font-family="PT Serif" font-size="10" font-weight="500" fill="#7a7a7a" letter-spacing="1.5" style="animation-delay: 185ms; transform-origin: center;">REPOS</text>
         </g>
         <g transform="translate(258, 48)">
@@ -127,7 +127,7 @@
     </g>
   
 
-    <g transform="translate(32.5, 1140)" id="widget-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f">
+    <g transform="translate(32.5, 1132)" id="widget-widget_a6eb0012-2b60-4e69-a67e-1094416fe72f">
 
       
         <style>
