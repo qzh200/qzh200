@@ -325,7 +325,7 @@
       <text x="350" y="247.5" class="value" text-anchor="end">41 commits</text>
       <g transform="translate(215.5, 237)">
           <path d="M 0 6 L 4 0 L 8 6 L 5 6 L 5 10 L 3 10 L 3 6 Z" fill="#3fb950"/>
-          <text x="12" y="9" fill="#3fb950" class="trend-text">+173%</text>
+          <text x="12" y="9" fill="#3fb950" class="trend-text">+310%</text>
         </g>
     </g>
     <g class="row" style="animation-delay:1200ms">
@@ -776,6 +776,7 @@
 <rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:0.981s" x="717.7575757575758" y="62.803030303030305" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#26a641"><title>2026-11-09: 28 contributions</title></rect>
 <rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.026s" x="717.7575757575758" y="75.60606060606061" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#006d32"><title>2026-11-10: 6 contributions</title></rect>
 <rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.071s" x="717.7575757575758" y="88.4090909090909" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#0e4429"><title>2026-11-11: 2 contributions</title></rect>
+<rect class="c-widget_73efed31-4aa9-44fe-ae19-c382dc8a2252" style="animation-delay:1.116s" x="717.7575757575758" y="101.21212121212122" width="10.242424242424242" height="10.242424242424242" rx="2.5" fill="#161b22"><title>2026-11-12: 0 contributions</title></rect>
 <text x="613.7424242424242" y="153.8" fill="#7d8590" font-size="10" text-anchor="end">Less</text>
 <rect x="619.7424242424242" y="145.62121212121212" width="10.242424242424242" height="10.242424242424242" rx="2.2" fill="#161b22"/>
 <rect x="632.5454545454545" y="145.62121212121212" width="10.242424242424242" height="10.242424242424242" rx="2.2" fill="#0e4429"/>
@@ -786,7 +787,7 @@
 <text x="728" y="153.8" fill="#7d8590" font-size="10" text-anchor="end">More</text>
 <line x1="0" y1="169.86363636363637" x2="750" y2="169.86363636363637" stroke="rgba(255,255,255,0.1)" stroke-opacity="0.25"/>
 <text x="22" y="193.86363636363637" font-size="13" fill="#39d353"><tspan font-weight="700">514</tspan><tspan fill="#7d8590"> contributions in the last year</tspan></text>
-<text x="728" y="193.86363636363637" font-size="12" fill="#7d8590" text-anchor="end">Nov 9, 2025 &#8594; Nov 11, 2026</text>
+<text x="728" y="193.86363636363637" font-size="12" fill="#7d8590" text-anchor="end">Nov 9, 2025 &#8594; Nov 12, 2026</text>
 <text x="22" y="217.86363636363637" font-size="13" fill="#7d8590">current streak <tspan fill="#ffa657" font-weight="700">3 days</tspan><tspan fill="#7d8590">   &#183;   longest </tspan><tspan fill="#ffa657" font-weight="700">16 days</tspan></text>
 <text x="728" y="217.86363636363637" font-size="12" fill="#7d8590" text-anchor="end">best day <tspan fill="#f2cc60" font-weight="700">70</tspan> on Oct 27, 2026</text>
 </svg>
