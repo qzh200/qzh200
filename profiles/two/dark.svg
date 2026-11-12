@@ -160,7 +160,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 214.773682968169;
+        stroke-dashoffset: 214.68218313555462;
       }
     }
   
@@ -187,7 +187,7 @@
 </style>
 <svg fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId" x="16" y="16" width="358" height="178" preserveAspectRatio="xMinYMin meet" viewBox="0 0 467 195">
         <title id="titleId">&#36328;&#36234;&#26143;&#36712;&#30340;&#23458;'s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits in 2026 : 335, Total PRs: 3, Total Issues: 3, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits in 2026 : 337, Total PRs: 3, Total Issues: 3, Contributed to (last year): 2</desc>
         
 
         
@@ -266,7 +266,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >335</text>
+      >337</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -423,7 +423,7 @@
                 <!-- Total Contributions big number -->
                 <g transform='translate(82.5, 48)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
-                        562
+                        564
                     </text>
                 </g>
 
@@ -452,7 +452,7 @@
                 <!-- Current Streak range -->
                 <g transform='translate(247.5, 145)'>
                     <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
-                        Nov 6, 2026 - Nov 11, 2026
+                        Nov 6, 2026 - Nov 12, 2026
                     </text>
                 </g>
 
@@ -469,7 +469,7 @@
                 <!-- Current Streak big number -->
                 <g transform='translate(247.5, 48)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: currstreak 0.6s linear forwards'>
-                        6
+                        7
                     </text>
                 </g>
 
