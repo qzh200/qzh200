@@ -9,17 +9,17 @@
   <text x="656" y="30" fill="#A8B3C5" font-size="11" font-weight="600" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tokscale</text>
   <line x1="24" y1="64" x2="656" y2="64" stroke="rgba(255,255,255,0.09)"/>
   <text x="24.0" y="88" fill="#A8B3C5" font-size="11" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tokens</text>
-  <text x="24" y="121" fill="#2F8FFF" font-size="28" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="194.66666666666666">632,392,345</text>
+  <text x="24" y="121" fill="#2F8FFF" font-size="24.9" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="194.66666666666666">1,192,711,666</text>
   <line x1="234.7" y1="74" x2="234.7" y2="132" stroke="rgba(255,255,255,0.09)"/>
   <text x="250.7" y="88" fill="#A8B3C5" font-size="11" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Cost</text>
-  <text x="250.7" y="121" fill="#3FB950" font-size="28" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="178.66666666666666">$38.69</text>
+  <text x="250.7" y="121" fill="#3FB950" font-size="28" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="178.66666666666666">$39.77</text>
   <line x1="445.3" y1="74" x2="445.3" y2="132" stroke="rgba(255,255,255,0.09)"/>
   <text x="461.3" y="88" fill="#A8B3C5" font-size="11" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Rank (Tokens)</text>
-  <text x="461.3" y="121" fill="#F4F7FB" font-size="22.9" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="178.66666666666666">#2271 / 2,478</text>
+  <text x="461.3" y="121" fill="#F4F7FB" font-size="22.9" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="178.66666666666666">#2152 / 2,490</text>
   <line x1="24" y1="144" x2="656" y2="144" stroke="rgba(255,255,255,0.09)"/>
   <g data-contribution-panel="true" data-bottom="303.8">
   <text x="24" y="165" fill="#F4F7FB" font-size="12" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Contribution activity</text>
-  <text x="656" y="165" fill="#A8B3C5" font-size="10" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">18 active days</text>
+  <text x="656" y="165" fill="#A8B3C5" font-size="10" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">19 active days</text>
   <text x="54.0" y="182" fill="#A8B3C5" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Nov</text>
   <text x="88.2" y="182" fill="#A8B3C5" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Dec</text>
   <text x="133.8" y="182" fill="#A8B3C5" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Jan</text>
@@ -382,9 +382,9 @@
   <rect x="612.42" y="190.00" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-10-25 · level 1</title></rect>
   <rect x="612.42" y="201.40" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-10-26 · level 1</title></rect>
   <rect x="612.42" y="212.79" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-10-27 · level 0</title></rect>
-  <rect x="612.42" y="224.19" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-10-28 · level 2</title></rect>
-  <rect x="612.42" y="235.58" width="9.40" height="9.40" rx="2.0" fill="#79b8ff"><title>2026-10-29 · level 4</title></rect>
-  <rect x="612.42" y="246.98" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-10-30 · level 2</title></rect>
+  <rect x="612.42" y="224.19" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-10-28 · level 1</title></rect>
+  <rect x="612.42" y="235.58" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-10-29 · level 2</title></rect>
+  <rect x="612.42" y="246.98" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-10-30 · level 1</title></rect>
   <rect x="612.42" y="258.38" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-10-31 · level 0</title></rect>
   <rect x="623.81" y="190.00" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-01 · level 1</title></rect>
   <rect x="623.81" y="201.40" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-02 · level 0</title></rect>
@@ -393,15 +393,16 @@
   <rect x="623.81" y="235.58" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-05 · level 0</title></rect>
   <rect x="623.81" y="246.98" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-06 · level 0</title></rect>
   <rect x="623.81" y="258.38" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-07 · level 1</title></rect>
-  <rect x="635.21" y="190.00" width="9.40" height="9.40" rx="2.0" fill="#79b8ff"><title>2026-11-08 · level 4</title></rect>
-  <rect x="635.21" y="201.40" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-11-09 · level 2</title></rect>
+  <rect x="635.21" y="190.00" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-11-08 · level 2</title></rect>
+  <rect x="635.21" y="201.40" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-09 · level 1</title></rect>
   <rect x="635.21" y="212.79" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-10 · level 0</title></rect>
   <rect x="635.21" y="224.19" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-11 · level 1</title></rect>
   <rect x="635.21" y="235.58" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-12 · level 0</title></rect>
   <rect x="635.21" y="246.98" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-13 · level 0</title></rect>
   <rect x="635.21" y="258.38" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-14 · level 1</title></rect>
-  <rect x="646.60" y="190.00" width="9.40" height="9.40" rx="2.0" fill="#79b8ff"><title>2026-11-15 · level 4</title></rect>
-  <rect x="646.60" y="201.40" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-16 · level 0</title></rect>
+  <rect x="646.60" y="190.00" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-15 · level 1</title></rect>
+  <rect x="646.60" y="201.40" width="9.40" height="9.40" rx="2.0" fill="#79b8ff"><title>2026-11-16 · level 4</title></rect>
+  <rect x="646.60" y="212.79" width="9.40" height="9.40" rx="2.0" fill="#191F2B"><title>2026-11-17 · level 0</title></rect>
   <text x="539" y="291.7735849056604" fill="#A8B3C5" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Less</text>
   <rect x="563" y="283.7735849056604" width="9" height="9" rx="2" fill="#191F2B"/>
   <rect x="576" y="283.7735849056604" width="9" height="9" rx="2" fill="#4069b2"/>
